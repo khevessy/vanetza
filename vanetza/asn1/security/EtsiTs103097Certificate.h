@@ -21,9 +21,18 @@ extern "C" {
 /* Vanetza_Security_EtsiTs103097Certificate */
 typedef Vanetza_Security_ExplicitCertificate_t	 Vanetza_Security_EtsiTs103097Certificate_t;
 
+/* asn1_security/EtsiTs103097Certificate.h */
+/* change extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_EtsiTs103097Certificate; to */
+#ifdef asn1_security_EXPORTS
+#define ASN1_SECURITY_EXPORT __declspec(dllexport)
+#else
+#define ASN1_SECURITY_EXPORT __declspec(dllimport)
+#endif
+ASN1_SECURITY_EXPORT asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_EtsiTs103097Certificate;
+
 /* Implementation */
 extern asn_per_constraints_t asn_PER_type_Vanetza_Security_EtsiTs103097Certificate_constr_1;
-extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_EtsiTs103097Certificate;
+//extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_EtsiTs103097Certificate;
 asn_struct_free_f Vanetza_Security_EtsiTs103097Certificate_free;
 asn_struct_print_f Vanetza_Security_EtsiTs103097Certificate_print;
 asn_constr_check_f Vanetza_Security_EtsiTs103097Certificate_constraint;

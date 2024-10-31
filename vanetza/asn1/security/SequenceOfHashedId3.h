@@ -28,8 +28,17 @@ typedef struct Vanetza_Security_SequenceOfHashedId3 {
 	asn_struct_ctx_t _asn_ctx;
 } Vanetza_Security_SequenceOfHashedId3_t;
 
+/* asn1_security/SequenceOfHashedId3.h */
+/* change extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_SequenceOfHashedId3; to */
+#ifdef asn1_security_EXPORTS
+#define ASN1_SECURITY_EXPORT __declspec(dllexport)
+#else
+#define ASN1_SECURITY_EXPORT __declspec(dllimport)
+#endif
 /* Implementation */
-extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_SequenceOfHashedId3;
+ASN1_SECURITY_EXPORT asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_SequenceOfHashedId3;
+/* Implementation */
+//extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_SequenceOfHashedId3;
 extern asn_SET_OF_specifics_t asn_SPC_Vanetza_Security_SequenceOfHashedId3_specs_1;
 extern asn_TYPE_member_t asn_MBR_Vanetza_Security_SequenceOfHashedId3_1[1];
 

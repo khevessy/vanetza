@@ -48,8 +48,17 @@ typedef struct Vanetza_Security_SignerIdentifier {
 	asn_struct_ctx_t _asn_ctx;
 } Vanetza_Security_SignerIdentifier_t;
 
+/* asn1_security/SignerIdentifier.h */
+/* change extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_SignerIdentifier; to */
+#ifdef asn1_security_EXPORTS
+#define ASN1_SECURITY_EXPORT __declspec(dllexport)
+#else
+#define ASN1_SECURITY_EXPORT __declspec(dllimport)
+#endif
 /* Implementation */
-extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_SignerIdentifier;
+ASN1_SECURITY_EXPORT asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_SignerIdentifier;
+/* Implementation */
+//extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_SignerIdentifier;
 extern asn_CHOICE_specifics_t asn_SPC_Vanetza_Security_SignerIdentifier_specs_1;
 extern asn_TYPE_member_t asn_MBR_Vanetza_Security_SignerIdentifier_1[3];
 extern asn_per_constraints_t asn_PER_type_Vanetza_Security_SignerIdentifier_constr_1;

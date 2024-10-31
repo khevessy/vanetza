@@ -22,6 +22,28 @@
 #include <errno.h>
 
 #if	defined(_WIN32)
+// This is a second possibility
+//#undef GMTOFF
+//#define	GMTOFF(tm)	(_get_timezone)
+#undef	GMTOFF
+static long GMTOFF(struct tm a){
+	struct tm *lt;
+	time_t local_time, gmt_time;
+	long zone;
+
+	tzset();
+	gmt_time = time (NULL);
+
+	lt = gmtime(&gmt_time);
+
+	local_time = mktime(lt);
+	return (gmt_time - local_time);
+}
+#define timegm _mkgmtime
+#define HAVE_TIMEGM
+#endif
+
+#if	defined(_WIN32)
 #pragma message( "PLEASE STOP AND READ!")
 #pragma message( "  localtime_r is implemented via localtime(), which may be not thread-safe.")
 #pragma message( "  gmtime_r is implemented via gmtime(), which may be not thread-safe.")

@@ -21,9 +21,17 @@ extern "C" {
 /* Vanetza_Security_EtsiTs103097Data */
 typedef Vanetza_Security_Ieee1609Dot2Data_t	 Vanetza_Security_EtsiTs103097Data_t;
 
+/* asn1_security/EtsTs103097Data.h */
+/* change extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_EtsiTs103097Data to */
+#ifdef asn1_security_EXPORTS
+#define ASN1_SECURITY_EXPORT __declspec(dllexport)
+#else
+#define ASN1_SECURITY_EXPORT __declspec(dllimport)
+#endif
+ASN1_SECURITY_EXPORT asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_EtsiTs103097Data;
 /* Implementation */
 extern asn_per_constraints_t asn_PER_type_Vanetza_Security_EtsiTs103097Data_constr_1;
-extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_EtsiTs103097Data;
+//extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_EtsiTs103097Data;
 asn_struct_free_f Vanetza_Security_EtsiTs103097Data_free;
 asn_struct_print_f Vanetza_Security_EtsiTs103097Data_print;
 asn_constr_check_f Vanetza_Security_EtsiTs103097Data_constraint;

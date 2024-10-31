@@ -30,7 +30,14 @@ public:
     std::array<uint8_t, length_bytes> octets;
 };
 
-extern const MacAddress cBroadcastMacAddress;
+#undef NET_EXPORT
+#ifdef net_EXPORTS
+#define NET_EXPORT __declspec(dllexport)
+#else
+#define NET_EXPORT __declspec(dllimport)
+#endif
+NET_EXPORT extern const MacAddress cBroadcastMacAddress;
+//extern const MacAddress cBroadcastMacAddress;
 bool operator==(const MacAddress& lhs, const MacAddress& rhs);
 bool operator<(const MacAddress& lhs, const MacAddress& rhs);
 std::ostream& operator<<(std::ostream& os, const MacAddress&);

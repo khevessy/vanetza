@@ -31,8 +31,17 @@ typedef struct Vanetza_Security_ToBeSignedData {
 	asn_struct_ctx_t _asn_ctx;
 } Vanetza_Security_ToBeSignedData_t;
 
+/* asn1_security/ToBeSignedData.h */
+/* change extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_ToBeSignedData; to */
+#ifdef asn1_security_EXPORTS
+#define ASN1_SECURITY_EXPORT __declspec(dllexport)
+#else
+#define ASN1_SECURITY_EXPORT __declspec(dllimport)
+#endif
 /* Implementation */
-extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_ToBeSignedData;
+ASN1_SECURITY_EXPORT asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_ToBeSignedData;
+/* Implementation */
+//extern asn_TYPE_descriptor_t asn_DEF_Vanetza_Security_ToBeSignedData;
 extern asn_SEQUENCE_specifics_t asn_SPC_Vanetza_Security_ToBeSignedData_specs_1;
 extern asn_TYPE_member_t asn_MBR_Vanetza_Security_ToBeSignedData_1[2];
 
