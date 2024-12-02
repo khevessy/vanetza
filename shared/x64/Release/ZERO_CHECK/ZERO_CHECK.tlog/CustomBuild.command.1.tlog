@@ -1,0 +1,10 @@
+^C:\USERS\KAREL HEVESSY\SRC\VANETZA-BUILD\SHARED\CMAKEFILES\22FF3ECDEEA539D02BF049774820FAC8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Karel Hevessy/src/vanetza-build" "-BC:/Users/Karel Hevessy/src/vanetza-build/shared" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Karel Hevessy/src/vanetza-build/shared/Vanetza.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

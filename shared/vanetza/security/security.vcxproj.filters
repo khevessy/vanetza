@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\backend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\backend_null.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\cam_ssp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\decap_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\delegating_security_entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\ecc_point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\ecdsa256.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\encap_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\hashed_id.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\key_type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\peer_request_tracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\secured_message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\sha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\signature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\straight_verify_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\verify_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\basic_elements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\certificate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\certificate_cache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\default_certificate_validator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\ecc_point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\encryption_parameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\header_field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\int_x.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\length_coding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\naive_certificate_provider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\null_certificate_provider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\null_certificate_validator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\payload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\persistence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\public_key.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\recipient_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\region.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\secured_message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\serialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\sign_header_policy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\signature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\signer_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\sign_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\static_certificate_provider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\subject_attribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\subject_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\trailer_field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\trust_store.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\validity_restriction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\verification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v3\asn1_conversions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v3\certificate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v3\certificate_cache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v3\certificate_validator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v3\distance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v3\hash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v3\secured_message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v3\sign_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v3\naive_certificate_provider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v3\sign_header_policy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v3\static_certificate_provider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v3\persistence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\backend_cryptopp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{140E373B-CE7B-3A9D-9E1D-43A14B3002F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

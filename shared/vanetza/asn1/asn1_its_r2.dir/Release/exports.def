@@ -1,0 +1,1108 @@
+EXPORTS 
+	asn_DEF_Vanetza_ITS2_Acceleration3dWithConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_AccelerationCartesian 	 DATA
+	asn_DEF_Vanetza_ITS2_AccelerationChange 	 DATA
+	asn_DEF_Vanetza_ITS2_AccelerationChangeIndication 	 DATA
+	asn_DEF_Vanetza_ITS2_AccelerationComponent 	 DATA
+	asn_DEF_Vanetza_ITS2_AccelerationConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_AccelerationControl 	 DATA
+	asn_DEF_Vanetza_ITS2_AccelerationMagnitude 	 DATA
+	asn_DEF_Vanetza_ITS2_AccelerationMagnitudeValue 	 DATA
+	asn_DEF_Vanetza_ITS2_AccelerationPolarWithZ 	 DATA
+	asn_DEF_Vanetza_ITS2_AccelerationValue 	 DATA
+	asn_DEF_Vanetza_ITS2_AccessTechnologyClass 	 DATA
+	asn_DEF_Vanetza_ITS2_AccidentSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_ActionID 	 DATA
+	asn_DEF_Vanetza_ITS2_ActionIdList 	 DATA
+	asn_DEF_Vanetza_ITS2_AdverseWeatherCondition_AdhesionSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_AdverseWeatherCondition_ExtremeWeatherConditionSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_AdverseWeatherCondition_PrecipitationSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_AdverseWeatherCondition_VisibilitySubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_AirHumidity 	 DATA
+	asn_DEF_Vanetza_ITS2_AlacarteContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_Altitude 	 DATA
+	asn_DEF_Vanetza_ITS2_AltitudeConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_AltitudeValue 	 DATA
+	asn_DEF_Vanetza_ITS2_AngleConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_AngularAccelerationConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_AngularSpeedConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_AxlesCount 	 DATA
+	asn_DEF_Vanetza_ITS2_BarometricPressure 	 DATA
+	asn_DEF_Vanetza_ITS2_BasicContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_BasicLaneConfiguration 	 DATA
+	asn_DEF_Vanetza_ITS2_BasicLaneInformation 	 DATA
+	asn_DEF_Vanetza_ITS2_BasicVehicleContainerHighFrequency 	 DATA
+	asn_DEF_Vanetza_ITS2_BasicVehicleContainerLowFrequency 	 DATA
+	asn_DEF_Vanetza_ITS2_BogiesCount 	 DATA
+	asn_DEF_Vanetza_ITS2_CAM 	 DATA
+	asn_DEF_Vanetza_ITS2_CPM_PDU_Descriptions_ManagementContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_CamParameters 	 DATA
+	asn_DEF_Vanetza_ITS2_CamPayload 	 DATA
+	asn_DEF_Vanetza_ITS2_CardinalNumber1B 	 DATA
+	asn_DEF_Vanetza_ITS2_CardinalNumber3b 	 DATA
+	asn_DEF_Vanetza_ITS2_CartesianAngle 	 DATA
+	asn_DEF_Vanetza_ITS2_CartesianAngleValue 	 DATA
+	asn_DEF_Vanetza_ITS2_CartesianAngularAccelerationComponent 	 DATA
+	asn_DEF_Vanetza_ITS2_CartesianAngularAccelerationComponentValue 	 DATA
+	asn_DEF_Vanetza_ITS2_CartesianAngularVelocityComponent 	 DATA
+	asn_DEF_Vanetza_ITS2_CartesianAngularVelocityComponentValue 	 DATA
+	asn_DEF_Vanetza_ITS2_CartesianCoordinate 	 DATA
+	asn_DEF_Vanetza_ITS2_CartesianCoordinateLarge 	 DATA
+	asn_DEF_Vanetza_ITS2_CartesianCoordinateSmall 	 DATA
+	asn_DEF_Vanetza_ITS2_CartesianCoordinateWithConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_CartesianPosition3d 	 DATA
+	asn_DEF_Vanetza_ITS2_CartesianPosition3dWithConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_CauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_CauseCodeChoice 	 DATA
+	asn_DEF_Vanetza_ITS2_CauseCodeType 	 DATA
+	asn_DEF_Vanetza_ITS2_CauseCodeV2 	 DATA
+	asn_DEF_Vanetza_ITS2_CenDsrcTollingZone 	 DATA
+	asn_DEF_Vanetza_ITS2_CenDsrcTollingZoneID 	 DATA
+	asn_DEF_Vanetza_ITS2_CircularShape 	 DATA
+	asn_DEF_Vanetza_ITS2_ClosedLanes 	 DATA
+	asn_DEF_Vanetza_ITS2_ClusterBreakupInfo 	 DATA
+	asn_DEF_Vanetza_ITS2_ClusterBreakupReason 	 DATA
+	asn_DEF_Vanetza_ITS2_ClusterJoinInfo 	 DATA
+	asn_DEF_Vanetza_ITS2_ClusterLeaveInfo 	 DATA
+	asn_DEF_Vanetza_ITS2_ClusterLeaveReason 	 DATA
+	asn_DEF_Vanetza_ITS2_CollectivePerceptionMessage 	 DATA
+	asn_DEF_Vanetza_ITS2_CollisionRiskSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_ConfidenceLevel 	 DATA
+	asn_DEF_Vanetza_ITS2_ConstraintWrappedCpmContainers 	 DATA
+	asn_DEF_Vanetza_ITS2_CoordinateConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_CorrelationCellValue 	 DATA
+	asn_DEF_Vanetza_ITS2_CorrelationColumn 	 DATA
+	asn_DEF_Vanetza_ITS2_CountryCode 	 DATA
+	asn_DEF_Vanetza_ITS2_CpmContainerId 	 DATA
+	asn_DEF_Vanetza_ITS2_CpmPayload 	 DATA
+	asn_DEF_Vanetza_ITS2_Curvature 	 DATA
+	asn_DEF_Vanetza_ITS2_CurvatureCalculationMode 	 DATA
+	asn_DEF_Vanetza_ITS2_CurvatureConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_CurvatureValue 	 DATA
+	asn_DEF_Vanetza_ITS2_DENM 	 DATA
+	asn_DEF_Vanetza_ITS2_DENM_PDU_Description_ManagementContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_DangerousEndOfQueueSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_DangerousGoodsBasic 	 DATA
+	asn_DEF_Vanetza_ITS2_DangerousGoodsContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_DangerousGoodsExtended 	 DATA
+	asn_DEF_Vanetza_ITS2_DangerousSituationSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_DeltaAltitude 	 DATA
+	asn_DEF_Vanetza_ITS2_DeltaLatitude 	 DATA
+	asn_DEF_Vanetza_ITS2_DeltaLongitude 	 DATA
+	asn_DEF_Vanetza_ITS2_DeltaReferencePosition 	 DATA
+	asn_DEF_Vanetza_ITS2_DeltaTimeMilliSecondPositive 	 DATA
+	asn_DEF_Vanetza_ITS2_DeltaTimeMilliSecondSigned 	 DATA
+	asn_DEF_Vanetza_ITS2_DeltaTimeQuarterSecond 	 DATA
+	asn_DEF_Vanetza_ITS2_DeltaTimeSecond 	 DATA
+	asn_DEF_Vanetza_ITS2_DeltaTimeTenSeconds 	 DATA
+	asn_DEF_Vanetza_ITS2_DeltaTimeTenthOfSecond 	 DATA
+	asn_DEF_Vanetza_ITS2_DenmPayload 	 DATA
+	asn_DEF_Vanetza_ITS2_DigitalMap 	 DATA
+	asn_DEF_Vanetza_ITS2_Direction 	 DATA
+	asn_DEF_Vanetza_ITS2_DriveDirection 	 DATA
+	asn_DEF_Vanetza_ITS2_DrivingLaneStatus 	 DATA
+	asn_DEF_Vanetza_ITS2_EllipticalShape 	 DATA
+	asn_DEF_Vanetza_ITS2_EmbarkationStatus 	 DATA
+	asn_DEF_Vanetza_ITS2_EmergencyContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_EmergencyPriority 	 DATA
+	asn_DEF_Vanetza_ITS2_EmergencyVehicleApproachingSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_EnergyStorageType 	 DATA
+	asn_DEF_Vanetza_ITS2_EuVehicleCategoryCode 	 DATA
+	asn_DEF_Vanetza_ITS2_EuVehicleCategoryL 	 DATA
+	asn_DEF_Vanetza_ITS2_EuVehicleCategoryM 	 DATA
+	asn_DEF_Vanetza_ITS2_EuVehicleCategoryN 	 DATA
+	asn_DEF_Vanetza_ITS2_EuVehicleCategoryO 	 DATA
+	asn_DEF_Vanetza_ITS2_EulerAnglesWithConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_EventHistory 	 DATA
+	asn_DEF_Vanetza_ITS2_EventPoint 	 DATA
+	asn_DEF_Vanetza_ITS2_EventZone 	 DATA
+	asn_DEF_Vanetza_ITS2_Ext1 	 DATA
+	asn_DEF_Vanetza_ITS2_Ext2 	 DATA
+	asn_DEF_Vanetza_ITS2_Ext3 	 DATA
+	asn_DEF_Vanetza_ITS2_ExteriorLights 	 DATA
+	asn_DEF_Vanetza_ITS2_GeneralizedLanePosition 	 DATA
+	asn_DEF_Vanetza_ITS2_GeneralizedLanePositions 	 DATA
+	asn_DEF_Vanetza_ITS2_GenerationDeltaTime 	 DATA
+	asn_DEF_Vanetza_ITS2_GeoPosition 	 DATA
+	asn_DEF_Vanetza_ITS2_HardShoulderStatus 	 DATA
+	asn_DEF_Vanetza_ITS2_HazardousLocation_AnimalOnTheRoadSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_HazardousLocation_DangerousCurveSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_HazardousLocation_ObstacleOnTheRoadSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_HazardousLocation_SurfaceConditionSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_Heading 	 DATA
+	asn_DEF_Vanetza_ITS2_HeadingChangeIndication 	 DATA
+	asn_DEF_Vanetza_ITS2_HeadingConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_HeadingValue 	 DATA
+	asn_DEF_Vanetza_ITS2_HeightLonCarr 	 DATA
+	asn_DEF_Vanetza_ITS2_HighFrequencyContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_HumanPresenceOnTheRoadSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_HumanProblemSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_Identifier1B 	 DATA
+	asn_DEF_Vanetza_ITS2_Identifier2B 	 DATA
+	asn_DEF_Vanetza_ITS2_ImpactReductionContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_ImpassabilitySubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_InformationQuality 	 DATA
+	asn_DEF_Vanetza_ITS2_InterferenceManagementChannel 	 DATA
+	asn_DEF_Vanetza_ITS2_InterferenceManagementInfo 	 DATA
+	asn_DEF_Vanetza_ITS2_InterferenceManagementInfoPerChannel 	 DATA
+	asn_DEF_Vanetza_ITS2_InterferenceManagementZone 	 DATA
+	asn_DEF_Vanetza_ITS2_InterferenceManagementZoneDefinition 	 DATA
+	asn_DEF_Vanetza_ITS2_InterferenceManagementZoneType 	 DATA
+	asn_DEF_Vanetza_ITS2_InterferenceManagementZones 	 DATA
+	asn_DEF_Vanetza_ITS2_IntersectionReferenceId 	 DATA
+	asn_DEF_Vanetza_ITS2_Iso3833VehicleType 	 DATA
+	asn_DEF_Vanetza_ITS2_IssuerIdentifier 	 DATA
+	asn_DEF_Vanetza_ITS2_ItineraryPath 	 DATA
+	asn_DEF_Vanetza_ITS2_ItsPduHeader 	 DATA
+	asn_DEF_Vanetza_ITS2_IviIdentificationNumber 	 DATA
+	asn_DEF_Vanetza_ITS2_IvimReference 	 DATA
+	asn_DEF_Vanetza_ITS2_IvimReferences 	 DATA
+	asn_DEF_Vanetza_ITS2_LanePosition 	 DATA
+	asn_DEF_Vanetza_ITS2_LanePositionAndType 	 DATA
+	asn_DEF_Vanetza_ITS2_LanePositionOptions 	 DATA
+	asn_DEF_Vanetza_ITS2_LanePositionWithLateralDetails 	 DATA
+	asn_DEF_Vanetza_ITS2_LaneType 	 DATA
+	asn_DEF_Vanetza_ITS2_LaneWidth 	 DATA
+	asn_DEF_Vanetza_ITS2_LateralAcceleration 	 DATA
+	asn_DEF_Vanetza_ITS2_LateralAccelerationValue 	 DATA
+	asn_DEF_Vanetza_ITS2_Latitude 	 DATA
+	asn_DEF_Vanetza_ITS2_LightBarSirenInUse 	 DATA
+	asn_DEF_Vanetza_ITS2_LocationContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_Longitude 	 DATA
+	asn_DEF_Vanetza_ITS2_LongitudinalAcceleration 	 DATA
+	asn_DEF_Vanetza_ITS2_LongitudinalAccelerationValue 	 DATA
+	asn_DEF_Vanetza_ITS2_LongitudinalLanePosition 	 DATA
+	asn_DEF_Vanetza_ITS2_LongitudinalLanePositionConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_LongitudinalLanePositionValue 	 DATA
+	asn_DEF_Vanetza_ITS2_LowFrequencyContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_LowerTriangularPositiveSemidefiniteMatrices 	 DATA
+	asn_DEF_Vanetza_ITS2_LowerTriangularPositiveSemidefiniteMatrix 	 DATA
+	asn_DEF_Vanetza_ITS2_LowerTriangularPositiveSemidefiniteMatrixColumns 	 DATA
+	asn_DEF_Vanetza_ITS2_MapPosition 	 DATA
+	asn_DEF_Vanetza_ITS2_MapReference 	 DATA
+	asn_DEF_Vanetza_ITS2_MapReferences 	 DATA
+	asn_DEF_Vanetza_ITS2_MapemConfiguration 	 DATA
+	asn_DEF_Vanetza_ITS2_MapemConnectionList 	 DATA
+	asn_DEF_Vanetza_ITS2_MapemElementReference 	 DATA
+	asn_DEF_Vanetza_ITS2_MapemLaneList 	 DATA
+	asn_DEF_Vanetza_ITS2_MatrixIncludedComponents 	 DATA
+	asn_DEF_Vanetza_ITS2_MessageId 	 DATA
+	asn_DEF_Vanetza_ITS2_MessageRateHz 	 DATA
+	asn_DEF_Vanetza_ITS2_MessageRateRange 	 DATA
+	asn_DEF_Vanetza_ITS2_MessageSegmentationInfo 	 DATA
+	asn_DEF_Vanetza_ITS2_MetaInformation 	 DATA
+	asn_DEF_Vanetza_ITS2_MitigationForTechnologies 	 DATA
+	asn_DEF_Vanetza_ITS2_MitigationPerTechnologyClass 	 DATA
+	asn_DEF_Vanetza_ITS2_NumberOfOccupants 	 DATA
+	asn_DEF_Vanetza_ITS2_ObjectClass 	 DATA
+	asn_DEF_Vanetza_ITS2_ObjectClassDescription 	 DATA
+	asn_DEF_Vanetza_ITS2_ObjectClassWithConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_ObjectDimension 	 DATA
+	asn_DEF_Vanetza_ITS2_ObjectDimensionConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_ObjectDimensionValue 	 DATA
+	asn_DEF_Vanetza_ITS2_ObjectFace 	 DATA
+	asn_DEF_Vanetza_ITS2_ObjectPerceptionQuality 	 DATA
+	asn_DEF_Vanetza_ITS2_OccupiedLanesWithConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_OpeningDaysHours 	 DATA
+	asn_DEF_Vanetza_ITS2_OrdinalNumber1B 	 DATA
+	asn_DEF_Vanetza_ITS2_OrdinalNumber3b 	 DATA
+	asn_DEF_Vanetza_ITS2_OriginatingRsuContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_OriginatingVehicleContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_OtherSubClass 	 DATA
+	asn_DEF_Vanetza_ITS2_Path 	 DATA
+	asn_DEF_Vanetza_ITS2_PathDeltaTime 	 DATA
+	asn_DEF_Vanetza_ITS2_PathDeltaTimeChoice 	 DATA
+	asn_DEF_Vanetza_ITS2_PathExtended 	 DATA
+	asn_DEF_Vanetza_ITS2_PathHistory 	 DATA
+	asn_DEF_Vanetza_ITS2_PathId 	 DATA
+	asn_DEF_Vanetza_ITS2_PathPoint 	 DATA
+	asn_DEF_Vanetza_ITS2_PathPointPredicted 	 DATA
+	asn_DEF_Vanetza_ITS2_PathPredicted 	 DATA
+	asn_DEF_Vanetza_ITS2_PathPredicted2 	 DATA
+	asn_DEF_Vanetza_ITS2_PathPredictedList 	 DATA
+	asn_DEF_Vanetza_ITS2_PathReferences 	 DATA
+	asn_DEF_Vanetza_ITS2_PerceivedObject 	 DATA
+	asn_DEF_Vanetza_ITS2_PerceivedObjectContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_PerceivedObjectIds 	 DATA
+	asn_DEF_Vanetza_ITS2_PerceivedObjects 	 DATA
+	asn_DEF_Vanetza_ITS2_PerceptionRegion 	 DATA
+	asn_DEF_Vanetza_ITS2_PerceptionRegionContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_PerformanceClass 	 DATA
+	asn_DEF_Vanetza_ITS2_PhoneNumber 	 DATA
+	asn_DEF_Vanetza_ITS2_PolygonalShape 	 DATA
+	asn_DEF_Vanetza_ITS2_PosCentMass 	 DATA
+	asn_DEF_Vanetza_ITS2_PosConfidenceEllipse 	 DATA
+	asn_DEF_Vanetza_ITS2_PosFrontAx 	 DATA
+	asn_DEF_Vanetza_ITS2_PosLonCarr 	 DATA
+	asn_DEF_Vanetza_ITS2_PosPillar 	 DATA
+	asn_DEF_Vanetza_ITS2_Position1d 	 DATA
+	asn_DEF_Vanetza_ITS2_PositionConfidenceEllipse 	 DATA
+	asn_DEF_Vanetza_ITS2_PositionOfOccupants 	 DATA
+	asn_DEF_Vanetza_ITS2_PositionOfPillars 	 DATA
+	asn_DEF_Vanetza_ITS2_PositioningSolutionType 	 DATA
+	asn_DEF_Vanetza_ITS2_PostCrashSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_PreCrashContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_PrecipitationIntensity 	 DATA
+	asn_DEF_Vanetza_ITS2_ProtectedCommunicationZone 	 DATA
+	asn_DEF_Vanetza_ITS2_ProtectedCommunicationZonesRSU 	 DATA
+	asn_DEF_Vanetza_ITS2_ProtectedZoneId 	 DATA
+	asn_DEF_Vanetza_ITS2_ProtectedZoneRadius 	 DATA
+	asn_DEF_Vanetza_ITS2_ProtectedZoneType 	 DATA
+	asn_DEF_Vanetza_ITS2_Provider 	 DATA
+	asn_DEF_Vanetza_ITS2_PtActivation 	 DATA
+	asn_DEF_Vanetza_ITS2_PtActivationData 	 DATA
+	asn_DEF_Vanetza_ITS2_PtActivationType 	 DATA
+	asn_DEF_Vanetza_ITS2_PublicTransportContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_RSUContainerHighFrequency 	 DATA
+	asn_DEF_Vanetza_ITS2_RadialShape 	 DATA
+	asn_DEF_Vanetza_ITS2_RadialShapeDetails 	 DATA
+	asn_DEF_Vanetza_ITS2_RadialShapes 	 DATA
+	asn_DEF_Vanetza_ITS2_RadialShapesList 	 DATA
+	asn_DEF_Vanetza_ITS2_RailwayLevelCrossingSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_RectangularShape 	 DATA
+	asn_DEF_Vanetza_ITS2_ReferencePosition 	 DATA
+	asn_DEF_Vanetza_ITS2_ReferencePositionWithConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_RelevanceDistance 	 DATA
+	asn_DEF_Vanetza_ITS2_RelevanceTrafficDirection 	 DATA
+	asn_DEF_Vanetza_ITS2_RequestResponseIndication 	 DATA
+	asn_DEF_Vanetza_ITS2_RescueAndRecoveryWorkInProgressSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_RescueContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_RestrictedTypes 	 DATA
+	asn_DEF_Vanetza_ITS2_RoadConfigurationContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_RoadConfigurationSection 	 DATA
+	asn_DEF_Vanetza_ITS2_RoadConfigurationSectionList 	 DATA
+	asn_DEF_Vanetza_ITS2_RoadSectionDefinition 	 DATA
+	asn_DEF_Vanetza_ITS2_RoadSectionId 	 DATA
+	asn_DEF_Vanetza_ITS2_RoadSegmentReferenceId 	 DATA
+	asn_DEF_Vanetza_ITS2_RoadType 	 DATA
+	asn_DEF_Vanetza_ITS2_RoadWorksContainerBasic 	 DATA
+	asn_DEF_Vanetza_ITS2_RoadWorksContainerExtended 	 DATA
+	asn_DEF_Vanetza_ITS2_RoadworksSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_SafeDistanceIndication 	 DATA
+	asn_DEF_Vanetza_ITS2_SafeDistanceIndicator 	 DATA
+	asn_DEF_Vanetza_ITS2_SafetyCarContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_SemiAxisLength 	 DATA
+	asn_DEF_Vanetza_ITS2_SensorInformation 	 DATA
+	asn_DEF_Vanetza_ITS2_SensorInformationContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_SensorType 	 DATA
+	asn_DEF_Vanetza_ITS2_SensorTypes 	 DATA
+	asn_DEF_Vanetza_ITS2_SequenceNumber 	 DATA
+	asn_DEF_Vanetza_ITS2_SequenceOfCartesianPosition3d 	 DATA
+	asn_DEF_Vanetza_ITS2_SequenceOfIdentifier1B 	 DATA
+	asn_DEF_Vanetza_ITS2_SequenceOfSafeDistanceIndication 	 DATA
+	asn_DEF_Vanetza_ITS2_SequenceOfTrajectoryInterceptionIndication 	 DATA
+	asn_DEF_Vanetza_ITS2_Shape 	 DATA
+	asn_DEF_Vanetza_ITS2_SignalViolationSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_SituationContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_SlowVehicleSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_SpecialTransportContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_SpecialTransportType 	 DATA
+	asn_DEF_Vanetza_ITS2_SpecialVehicleContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_Speed 	 DATA
+	asn_DEF_Vanetza_ITS2_SpeedConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_SpeedLimit 	 DATA
+	asn_DEF_Vanetza_ITS2_SpeedValue 	 DATA
+	asn_DEF_Vanetza_ITS2_StabilityChangeIndication 	 DATA
+	asn_DEF_Vanetza_ITS2_StabilityLossProbability 	 DATA
+	asn_DEF_Vanetza_ITS2_StandardLength12b 	 DATA
+	asn_DEF_Vanetza_ITS2_StandardLength1B 	 DATA
+	asn_DEF_Vanetza_ITS2_StandardLength2B 	 DATA
+	asn_DEF_Vanetza_ITS2_StandardLength3b 	 DATA
+	asn_DEF_Vanetza_ITS2_StandardLength9b 	 DATA
+	asn_DEF_Vanetza_ITS2_StationID 	 DATA
+	asn_DEF_Vanetza_ITS2_StationType 	 DATA
+	asn_DEF_Vanetza_ITS2_StationarySince 	 DATA
+	asn_DEF_Vanetza_ITS2_StationaryVehicleContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_StationaryVehicleSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_SteeringWheelAngle 	 DATA
+	asn_DEF_Vanetza_ITS2_SteeringWheelAngleConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_SteeringWheelAngleValue 	 DATA
+	asn_DEF_Vanetza_ITS2_StoredInformationType 	 DATA
+	asn_DEF_Vanetza_ITS2_SubCauseCodeType 	 DATA
+	asn_DEF_Vanetza_ITS2_Temperature 	 DATA
+	asn_DEF_Vanetza_ITS2_Termination 	 DATA
+	asn_DEF_Vanetza_ITS2_TimestampIts 	 DATA
+	asn_DEF_Vanetza_ITS2_Traces 	 DATA
+	asn_DEF_Vanetza_ITS2_TracesExtended 	 DATA
+	asn_DEF_Vanetza_ITS2_TrafficConditionSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_TrafficDirection 	 DATA
+	asn_DEF_Vanetza_ITS2_TrafficIslandPosition 	 DATA
+	asn_DEF_Vanetza_ITS2_TrafficParticipantType 	 DATA
+	asn_DEF_Vanetza_ITS2_TrafficRule 	 DATA
+	asn_DEF_Vanetza_ITS2_TrailerData 	 DATA
+	asn_DEF_Vanetza_ITS2_TrailerDataSet 	 DATA
+	asn_DEF_Vanetza_ITS2_TrailerPresenceInformation 	 DATA
+	asn_DEF_Vanetza_ITS2_TrajectoryInterceptionConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_TrajectoryInterceptionIndication 	 DATA
+	asn_DEF_Vanetza_ITS2_TrajectoryInterceptionProbability 	 DATA
+	asn_DEF_Vanetza_ITS2_TransmissionInterval 	 DATA
+	asn_DEF_Vanetza_ITS2_TurningDirection 	 DATA
+	asn_DEF_Vanetza_ITS2_TurningRadius 	 DATA
+	asn_DEF_Vanetza_ITS2_UsageIndication 	 DATA
+	asn_DEF_Vanetza_ITS2_VDS 	 DATA
+	asn_DEF_Vanetza_ITS2_ValidityDuration 	 DATA
+	asn_DEF_Vanetza_ITS2_VarLengthNumber 	 DATA
+	asn_DEF_Vanetza_ITS2_VehicleBreakdownSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_VehicleHeight 	 DATA
+	asn_DEF_Vanetza_ITS2_VehicleIdentification 	 DATA
+	asn_DEF_Vanetza_ITS2_VehicleLength 	 DATA
+	asn_DEF_Vanetza_ITS2_VehicleLengthConfidenceIndication 	 DATA
+	asn_DEF_Vanetza_ITS2_VehicleLengthV2 	 DATA
+	asn_DEF_Vanetza_ITS2_VehicleLengthValue 	 DATA
+	asn_DEF_Vanetza_ITS2_VehicleMass 	 DATA
+	asn_DEF_Vanetza_ITS2_VehicleRole 	 DATA
+	asn_DEF_Vanetza_ITS2_VehicleWidth 	 DATA
+	asn_DEF_Vanetza_ITS2_Velocity3dWithConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_VelocityCartesian 	 DATA
+	asn_DEF_Vanetza_ITS2_VelocityComponent 	 DATA
+	asn_DEF_Vanetza_ITS2_VelocityComponentValue 	 DATA
+	asn_DEF_Vanetza_ITS2_VelocityPolarWithZ 	 DATA
+	asn_DEF_Vanetza_ITS2_VerticalAcceleration 	 DATA
+	asn_DEF_Vanetza_ITS2_VerticalAccelerationValue 	 DATA
+	asn_DEF_Vanetza_ITS2_VruClusterInformation 	 DATA
+	asn_DEF_Vanetza_ITS2_VruClusterProfiles 	 DATA
+	asn_DEF_Vanetza_ITS2_VruDeviceUsage 	 DATA
+	asn_DEF_Vanetza_ITS2_VruEnvironment 	 DATA
+	asn_DEF_Vanetza_ITS2_VruExteriorLights 	 DATA
+	asn_DEF_Vanetza_ITS2_VruMovementControl 	 DATA
+	asn_DEF_Vanetza_ITS2_VruProfileAndSubprofile 	 DATA
+	asn_DEF_Vanetza_ITS2_VruSizeClass 	 DATA
+	asn_DEF_Vanetza_ITS2_VruSpecificExteriorLights 	 DATA
+	asn_DEF_Vanetza_ITS2_VruSubProfileAnimal 	 DATA
+	asn_DEF_Vanetza_ITS2_VruSubProfileBicyclist 	 DATA
+	asn_DEF_Vanetza_ITS2_VruSubProfileMotorcyclist 	 DATA
+	asn_DEF_Vanetza_ITS2_VruSubProfilePedestrian 	 DATA
+	asn_DEF_Vanetza_ITS2_WMInumber 	 DATA
+	asn_DEF_Vanetza_ITS2_Wgs84Angle 	 DATA
+	asn_DEF_Vanetza_ITS2_Wgs84AngleConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_Wgs84AngleValue 	 DATA
+	asn_DEF_Vanetza_ITS2_WheelBaseVehicle 	 DATA
+	asn_DEF_Vanetza_ITS2_WrappedCpmContainer 	 DATA
+	asn_DEF_Vanetza_ITS2_WrappedCpmContainers 	 DATA
+	asn_DEF_Vanetza_ITS2_WrongWayDrivingSubCauseCode 	 DATA
+	asn_DEF_Vanetza_ITS2_YawRate 	 DATA
+	asn_DEF_Vanetza_ITS2_YawRateConfidence 	 DATA
+	asn_DEF_Vanetza_ITS2_YawRateValue 	 DATA
+	asn_MBR_Vanetza_ITS2_Acceleration3dWithConfidence_1 	 DATA
+	asn_MBR_Vanetza_ITS2_AccelerationCartesian_1 	 DATA
+	asn_MBR_Vanetza_ITS2_AccelerationComponent_1 	 DATA
+	asn_MBR_Vanetza_ITS2_AccelerationMagnitude_1 	 DATA
+	asn_MBR_Vanetza_ITS2_AccelerationPolarWithZ_1 	 DATA
+	asn_MBR_Vanetza_ITS2_ActionIdList_1 	 DATA
+	asn_MBR_Vanetza_ITS2_AlacarteContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_Altitude_1 	 DATA
+	asn_MBR_Vanetza_ITS2_BasicContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_BasicLaneConfiguration_1 	 DATA
+	asn_MBR_Vanetza_ITS2_BasicLaneInformation_1 	 DATA
+	asn_MBR_Vanetza_ITS2_BasicVehicleContainerHighFrequency_1 	 DATA
+	asn_MBR_Vanetza_ITS2_BasicVehicleContainerLowFrequency_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CPM_PDU_Descriptions_ManagementContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CamParameters_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CamPayload_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CartesianAngle_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CartesianAngularVelocityComponent_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CartesianCoordinateWithConfidence_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CartesianPosition3dWithConfidence_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CartesianPosition3d_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CauseCodeChoice_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CauseCodeV2_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CenDsrcTollingZone_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CircularShape_1 	 DATA
+	asn_MBR_Vanetza_ITS2_ClosedLanes_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CorrelationColumn_1 	 DATA
+	asn_MBR_Vanetza_ITS2_CpmPayload_1 	 DATA
+	asn_MBR_Vanetza_ITS2_Curvature_1 	 DATA
+	asn_MBR_Vanetza_ITS2_DENM_PDU_Description_ManagementContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_DangerousGoodsContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_DangerousGoodsExtended_1 	 DATA
+	asn_MBR_Vanetza_ITS2_DeltaReferencePosition_1 	 DATA
+	asn_MBR_Vanetza_ITS2_DenmPayload_1 	 DATA
+	asn_MBR_Vanetza_ITS2_EllipticalShape_1 	 DATA
+	asn_MBR_Vanetza_ITS2_EmergencyContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_EulerAnglesWithConfidence_1 	 DATA
+	asn_MBR_Vanetza_ITS2_EventHistory_1 	 DATA
+	asn_MBR_Vanetza_ITS2_EventPoint_1 	 DATA
+	asn_MBR_Vanetza_ITS2_Ext1_1 	 DATA
+	asn_MBR_Vanetza_ITS2_Ext2_1 	 DATA
+	asn_MBR_Vanetza_ITS2_GeneralizedLanePosition_1 	 DATA
+	asn_MBR_Vanetza_ITS2_GeneralizedLanePositions_1 	 DATA
+	asn_MBR_Vanetza_ITS2_GeoPosition_1 	 DATA
+	asn_MBR_Vanetza_ITS2_Heading_1 	 DATA
+	asn_MBR_Vanetza_ITS2_HighFrequencyContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_ImpactReductionContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_InterferenceManagementChannel_1 	 DATA
+	asn_MBR_Vanetza_ITS2_InterferenceManagementInfoPerChannel_1 	 DATA
+	asn_MBR_Vanetza_ITS2_InterferenceManagementInfo_1 	 DATA
+	asn_MBR_Vanetza_ITS2_InterferenceManagementZoneDefinition_1 	 DATA
+	asn_MBR_Vanetza_ITS2_InterferenceManagementZone_1 	 DATA
+	asn_MBR_Vanetza_ITS2_IntersectionReferenceId_1 	 DATA
+	asn_MBR_Vanetza_ITS2_ItineraryPath_1 	 DATA
+	asn_MBR_Vanetza_ITS2_ItsPduHeader_1 	 DATA
+	asn_MBR_Vanetza_ITS2_IvimReference_1 	 DATA
+	asn_MBR_Vanetza_ITS2_IvimReferences_1 	 DATA
+	asn_MBR_Vanetza_ITS2_LanePositionAndType_1 	 DATA
+	asn_MBR_Vanetza_ITS2_LanePositionOptions_1 	 DATA
+	asn_MBR_Vanetza_ITS2_LanePositionWithLateralDetails_1 	 DATA
+	asn_MBR_Vanetza_ITS2_LocationContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_LongitudinalLanePosition_1 	 DATA
+	asn_MBR_Vanetza_ITS2_LowFrequencyContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_LowerTriangularPositiveSemidefiniteMatrices_1 	 DATA
+	asn_MBR_Vanetza_ITS2_LowerTriangularPositiveSemidefiniteMatrixColumns_1 	 DATA
+	asn_MBR_Vanetza_ITS2_LowerTriangularPositiveSemidefiniteMatrix_1 	 DATA
+	asn_MBR_Vanetza_ITS2_MapPosition_1 	 DATA
+	asn_MBR_Vanetza_ITS2_MapReference_1 	 DATA
+	asn_MBR_Vanetza_ITS2_MapReferences_1 	 DATA
+	asn_MBR_Vanetza_ITS2_MapemConfiguration_1 	 DATA
+	asn_MBR_Vanetza_ITS2_MapemConnectionList_1 	 DATA
+	asn_MBR_Vanetza_ITS2_MapemElementReference_1 	 DATA
+	asn_MBR_Vanetza_ITS2_MapemLaneList_1 	 DATA
+	asn_MBR_Vanetza_ITS2_MessageRateHz_1 	 DATA
+	asn_MBR_Vanetza_ITS2_MessageRateRange_1 	 DATA
+	asn_MBR_Vanetza_ITS2_MessageSegmentationInfo_1 	 DATA
+	asn_MBR_Vanetza_ITS2_MetaInformation_1 	 DATA
+	asn_MBR_Vanetza_ITS2_MitigationForTechnologies_1 	 DATA
+	asn_MBR_Vanetza_ITS2_MitigationPerTechnologyClass_1 	 DATA
+	asn_MBR_Vanetza_ITS2_ObjectClassDescription_1 	 DATA
+	asn_MBR_Vanetza_ITS2_ObjectClassWithConfidence_1 	 DATA
+	asn_MBR_Vanetza_ITS2_ObjectClass_1 	 DATA
+	asn_MBR_Vanetza_ITS2_ObjectDimension_1 	 DATA
+	asn_MBR_Vanetza_ITS2_OccupiedLanesWithConfidence_1 	 DATA
+	asn_MBR_Vanetza_ITS2_OriginatingRsuContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_OriginatingVehicleContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PathDeltaTimeChoice_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PathExtended_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PathPointPredicted_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PathPoint_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PathPredicted2_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PathPredictedList_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PathPredicted_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PathReferences_1 	 DATA
+	asn_MBR_Vanetza_ITS2_Path_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PerceivedObjectContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PerceivedObjectIds_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PerceivedObject_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PerceivedObjects_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PerceptionRegionContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PerceptionRegion_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PolygonalShape_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PosConfidenceEllipse_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PositionConfidenceEllipse_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PositionOfPillars_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PreCrashContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_ProtectedCommunicationZone_1 	 DATA
+	asn_MBR_Vanetza_ITS2_ProtectedCommunicationZonesRSU_1 	 DATA
+	asn_MBR_Vanetza_ITS2_Provider_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PtActivation_1 	 DATA
+	asn_MBR_Vanetza_ITS2_PublicTransportContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RSUContainerHighFrequency_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RadialShapeDetails_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RadialShape_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RadialShapesList_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RadialShapes_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RectangularShape_1 	 DATA
+	asn_MBR_Vanetza_ITS2_ReferencePositionWithConfidence_1 	 DATA
+	asn_MBR_Vanetza_ITS2_ReferencePosition_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RescueContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RestrictedTypes_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RoadConfigurationContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RoadConfigurationSectionList_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RoadConfigurationSection_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RoadSectionDefinition_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RoadSegmentReferenceId_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RoadWorksContainerBasic_1 	 DATA
+	asn_MBR_Vanetza_ITS2_RoadWorksContainerExtended_1 	 DATA
+	asn_MBR_Vanetza_ITS2_SafeDistanceIndication_1 	 DATA
+	asn_MBR_Vanetza_ITS2_SafetyCarContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_SensorInformationContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_SensorInformation_1 	 DATA
+	asn_MBR_Vanetza_ITS2_SequenceOfCartesianPosition3d_1 	 DATA
+	asn_MBR_Vanetza_ITS2_SequenceOfIdentifier1B_1 	 DATA
+	asn_MBR_Vanetza_ITS2_Shape_1 	 DATA
+	asn_MBR_Vanetza_ITS2_SituationContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_SpecialTransportContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_SpecialVehicleContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_Speed_1 	 DATA
+	asn_MBR_Vanetza_ITS2_StationaryVehicleContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_SteeringWheelAngle_1 	 DATA
+	asn_MBR_Vanetza_ITS2_TracesExtended_1 	 DATA
+	asn_MBR_Vanetza_ITS2_Traces_1 	 DATA
+	asn_MBR_Vanetza_ITS2_TrafficIslandPosition_1 	 DATA
+	asn_MBR_Vanetza_ITS2_TrailerDataSet_1 	 DATA
+	asn_MBR_Vanetza_ITS2_TrailerData_1 	 DATA
+	asn_MBR_Vanetza_ITS2_TrajectoryInterceptionIndication_1 	 DATA
+	asn_MBR_Vanetza_ITS2_VehicleIdentification_1 	 DATA
+	asn_MBR_Vanetza_ITS2_VehicleLength_1 	 DATA
+	asn_MBR_Vanetza_ITS2_Velocity3dWithConfidence_1 	 DATA
+	asn_MBR_Vanetza_ITS2_VelocityCartesian_1 	 DATA
+	asn_MBR_Vanetza_ITS2_VelocityComponent_1 	 DATA
+	asn_MBR_Vanetza_ITS2_VelocityPolarWithZ_1 	 DATA
+	asn_MBR_Vanetza_ITS2_VruClusterInformation_1 	 DATA
+	asn_MBR_Vanetza_ITS2_VruProfileAndSubprofile_1 	 DATA
+	asn_MBR_Vanetza_ITS2_Wgs84Angle_1 	 DATA
+	asn_MBR_Vanetza_ITS2_WrappedCpmContainer_1 	 DATA
+	asn_MBR_Vanetza_ITS2_WrappedCpmContainers_1 	 DATA
+	asn_MBR_Vanetza_ITS2_YawRate_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Acceleration3dWithConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AccelerationChange_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AccelerationConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AccelerationControl_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AccelerationMagnitudeValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AccelerationValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AccessTechnologyClass_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AccidentSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ActionIdList_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AdverseWeatherCondition_AdhesionSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AdverseWeatherCondition_ExtremeWeatherConditionSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AdverseWeatherCondition_PrecipitationSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AdverseWeatherCondition_VisibilitySubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AltitudeConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AltitudeValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AngleConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AngularAccelerationConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_AngularSpeedConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_BasicLaneConfiguration_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_BasicLaneInformation_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CardinalNumber1B_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CardinalNumber3b_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CartesianAngleValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CartesianAngularAccelerationComponentValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CartesianAngularVelocityComponentValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CartesianCoordinateLarge_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CartesianCoordinateSmall_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CartesianCoordinate_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CauseCodeChoice_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CauseCodeType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ClusterBreakupReason_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ClusterLeaveReason_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CollisionRiskSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ConfidenceLevel_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ConstraintWrappedCpmContainers_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CoordinateConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CorrelationCellValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CorrelationColumn_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CountryCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CpmContainerId_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CurvatureCalculationMode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CurvatureConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_CurvatureValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DangerousEndOfQueueSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DangerousGoodsBasic_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DangerousSituationSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DeltaAltitude_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DeltaLatitude_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DeltaLongitude_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DeltaTimeMilliSecondPositive_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DeltaTimeMilliSecondSigned_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DeltaTimeQuarterSecond_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DeltaTimeSecond_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DeltaTimeTenSeconds_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DeltaTimeTenthOfSecond_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DenmPayload_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Direction_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DriveDirection_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_DrivingLaneStatus_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_EmergencyPriority_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_EmergencyVehicleApproachingSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_EnergyStorageType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_EuVehicleCategoryL_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_EuVehicleCategoryM_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_EuVehicleCategoryN_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_EuVehicleCategoryO_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_EventHistory_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_EventZone_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Ext1_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Ext2_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Ext3_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ExteriorLights_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_GeneralizedLanePositions_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_GenerationDeltaTime_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_HardShoulderStatus_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_HazardousLocation_AnimalOnTheRoadSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_HazardousLocation_DangerousCurveSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_HazardousLocation_ObstacleOnTheRoadSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_HazardousLocation_SurfaceConditionSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_HeadingConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_HeadingValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_HeightLonCarr_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_HighFrequencyContainer_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_HumanPresenceOnTheRoadSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_HumanProblemSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Identifier1B_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Identifier2B_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ImpassabilitySubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_InformationQuality_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_InterferenceManagementInfo_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_InterferenceManagementZoneType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_IssuerIdentifier_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ItineraryPath_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_IviIdentificationNumber_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_IvimReferences_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_LanePositionOptions_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_LanePosition_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_LaneType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_LaneWidth_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_LateralAccelerationValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Latitude_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_LightBarSirenInUse_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Longitude_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_LongitudinalAccelerationValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_LongitudinalLanePositionConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_LongitudinalLanePositionValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_LowFrequencyContainer_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_LowerTriangularPositiveSemidefiniteMatrices_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_LowerTriangularPositiveSemidefiniteMatrixColumns_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_MapPosition_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_MapReference_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_MapReferences_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_MapemConfiguration_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_MapemConnectionList_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_MapemElementReference_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_MapemLaneList_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_MatrixIncludedComponents_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_MessageId_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_MitigationForTechnologies_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_NumberOfOccupants_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ObjectClassDescription_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ObjectClass_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ObjectDimensionConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ObjectDimensionValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ObjectFace_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ObjectPerceptionQuality_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_OrdinalNumber1B_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_OrdinalNumber3b_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_OtherSubClass_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PathDeltaTimeChoice_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PathDeltaTime_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PathId_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PathPointPredicted_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PathPredictedList_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PathPredicted_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PathReferences_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Path_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PerceivedObjectIds_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PerceivedObjects_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PerceptionRegionContainer_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PerformanceClass_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PhoneNumber_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PosCentMass_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PosFrontAx_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PosLonCarr_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PosPillar_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Position1d_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PositionOfOccupants_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PositionOfPillars_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PositioningSolutionType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PostCrashSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ProtectedCommunicationZonesRSU_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ProtectedZoneId_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ProtectedZoneRadius_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_ProtectedZoneType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PtActivationData_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_PtActivationType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_RadialShapeDetails_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_RadialShape_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_RadialShapesList_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_RailwayLevelCrossingSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_RequestResponseIndication_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_RescueAndRecoveryWorkInProgressSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_RestrictedTypes_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_RoadConfigurationSectionList_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_RoadConfigurationSection_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_RoadSectionId_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_RoadType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_RoadworksSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SemiAxisLength_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SensorInformationContainer_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SensorType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SensorTypes_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SequenceNumber_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SequenceOfCartesianPosition3d_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SequenceOfIdentifier1B_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Shape_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SignalViolationSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SituationContainer_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SlowVehicleSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SpecialTransportType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SpecialVehicleContainer_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SpeedConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SpeedLimit_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SpeedValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_StabilityLossProbability_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_StandardLength12b_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_StandardLength1B_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_StandardLength2B_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_StandardLength3b_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_StandardLength9b_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_StationID_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_StationType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_StationarySince_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_StationaryVehicleSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SteeringWheelAngleConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SteeringWheelAngleValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_StoredInformationType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_SubCauseCodeType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Temperature_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Termination_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_TimestampIts_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_TracesExtended_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Traces_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_TrafficConditionSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_TrafficDirection_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_TrafficParticipantType_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_TrafficRule_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_TrailerDataSet_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_TrailerPresenceInformation_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_TrajectoryInterceptionConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_TrajectoryInterceptionProbability_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_TurningDirection_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_TurningRadius_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_UsageIndication_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VDS_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VehicleBreakdownSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VehicleLengthConfidenceIndication_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VehicleLengthValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VehicleMass_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VehicleRole_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VehicleWidth_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Velocity3dWithConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VelocityComponentValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VerticalAccelerationValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VruClusterProfiles_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VruProfileAndSubprofile_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VruSpecificExteriorLights_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VruSubProfileAnimal_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VruSubProfileBicyclist_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VruSubProfileMotorcyclist_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_VruSubProfilePedestrian_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_WMInumber_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Wgs84AngleConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_Wgs84AngleValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_WheelBaseVehicle_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_WrappedCpmContainers_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_WrongWayDrivingSubCauseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_YawRateConfidence_constr_1 	 DATA
+	asn_PER_type_Vanetza_ITS2_YawRateValue_constr_1 	 DATA
+	asn_SPC_Vanetza_ITS2_Acceleration3dWithConfidence_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_AccelerationCartesian_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_AccelerationComponent_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_AccelerationMagnitude_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_AccelerationPolarWithZ_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_ActionIdList_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_AlacarteContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_Altitude_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_BasicContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_BasicLaneConfiguration_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_BasicLaneInformation_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_BasicVehicleContainerHighFrequency_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_BasicVehicleContainerLowFrequency_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CPM_PDU_Descriptions_ManagementContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CamParameters_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CamPayload_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CartesianAngle_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CartesianAngularVelocityComponent_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CartesianCoordinateWithConfidence_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CartesianPosition3dWithConfidence_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CartesianPosition3d_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CauseCodeChoice_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CauseCodeV2_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CenDsrcTollingZone_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CircularShape_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_ClosedLanes_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CorrelationColumn_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_CpmPayload_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_Curvature_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_DENM_PDU_Description_ManagementContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_DangerousGoodsContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_DangerousGoodsExtended_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_DeltaReferencePosition_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_DenmPayload_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_EllipticalShape_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_EmergencyContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_EulerAnglesWithConfidence_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_EventHistory_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_EventPoint_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_Ext1_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_Ext2_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_GeneralizedLanePosition_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_GeneralizedLanePositions_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_GeoPosition_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_Heading_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_HighFrequencyContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_ImpactReductionContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_InterferenceManagementChannel_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_InterferenceManagementInfoPerChannel_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_InterferenceManagementInfo_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_InterferenceManagementZoneDefinition_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_InterferenceManagementZone_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_IntersectionReferenceId_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_ItineraryPath_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_ItsPduHeader_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_IvimReference_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_IvimReferences_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_LanePositionAndType_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_LanePositionOptions_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_LanePositionWithLateralDetails_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_LocationContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_LongitudinalLanePosition_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_LowFrequencyContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_LowerTriangularPositiveSemidefiniteMatrices_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_LowerTriangularPositiveSemidefiniteMatrixColumns_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_LowerTriangularPositiveSemidefiniteMatrix_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_MapPosition_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_MapReference_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_MapReferences_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_MapemConfiguration_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_MapemConnectionList_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_MapemElementReference_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_MapemLaneList_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_MessageRateHz_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_MessageRateRange_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_MessageSegmentationInfo_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_MetaInformation_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_MitigationForTechnologies_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_MitigationPerTechnologyClass_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_ObjectClassDescription_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_ObjectClassWithConfidence_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_ObjectClass_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_ObjectDimension_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_OccupiedLanesWithConfidence_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_OriginatingRsuContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_OriginatingVehicleContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PathDeltaTimeChoice_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PathExtended_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PathPointPredicted_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PathPoint_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PathPredicted2_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PathPredictedList_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PathPredicted_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PathReferences_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_Path_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PerceivedObjectContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PerceivedObjectIds_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PerceivedObject_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PerceivedObjects_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PerceptionRegionContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PerceptionRegion_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PolygonalShape_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PosConfidenceEllipse_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PositionConfidenceEllipse_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PositionOfPillars_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PreCrashContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_ProtectedCommunicationZone_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_ProtectedCommunicationZonesRSU_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_Provider_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PtActivation_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_PublicTransportContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RSUContainerHighFrequency_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RadialShapeDetails_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RadialShape_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RadialShapesList_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RadialShapes_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RectangularShape_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_ReferencePositionWithConfidence_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_ReferencePosition_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RescueContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RestrictedTypes_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RoadConfigurationContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RoadConfigurationSectionList_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RoadConfigurationSection_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RoadSectionDefinition_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RoadSegmentReferenceId_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RoadWorksContainerBasic_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_RoadWorksContainerExtended_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_SafeDistanceIndication_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_SafetyCarContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_SensorInformationContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_SensorInformation_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_SequenceOfCartesianPosition3d_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_SequenceOfIdentifier1B_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_Shape_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_SituationContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_SpecialTransportContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_SpecialVehicleContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_Speed_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_StationaryVehicleContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_SteeringWheelAngle_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_TracesExtended_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_Traces_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_TrafficIslandPosition_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_TrailerDataSet_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_TrailerData_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_TrajectoryInterceptionIndication_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_VehicleIdentification_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_VehicleLength_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_Velocity3dWithConfidence_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_VelocityCartesian_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_VelocityComponent_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_VelocityPolarWithZ_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_VruClusterInformation_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_VruProfileAndSubprofile_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_Wgs84Angle_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_WrappedCpmContainer_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_WrappedCpmContainers_specs_1 	 DATA
+	asn_SPC_Vanetza_ITS2_YawRate_specs_1 	 DATA
+	Vanetza_ITS2_AccelerationConfidence_constraint
+	Vanetza_ITS2_AccelerationControl_constraint
+	Vanetza_ITS2_AccelerationMagnitudeValue_constraint
+	Vanetza_ITS2_AccelerationValue_constraint
+	Vanetza_ITS2_AccidentSubCauseCode_constraint
+	Vanetza_ITS2_AdverseWeatherCondition_AdhesionSubCauseCode_constraint
+	Vanetza_ITS2_AdverseWeatherCondition_ExtremeWeatherConditionSubCauseCode_constraint
+	Vanetza_ITS2_AdverseWeatherCondition_PrecipitationSubCauseCode_constraint
+	Vanetza_ITS2_AdverseWeatherCondition_VisibilitySubCauseCode_constraint
+	Vanetza_ITS2_AirHumidity_constraint
+	Vanetza_ITS2_AltitudeValue_constraint
+	Vanetza_ITS2_AngleConfidence_constraint
+	Vanetza_ITS2_AxlesCount_constraint
+	Vanetza_ITS2_BarometricPressure_constraint
+	Vanetza_ITS2_BogiesCount_constraint
+	Vanetza_ITS2_CardinalNumber1B_constraint
+	Vanetza_ITS2_CardinalNumber3b_constraint
+	Vanetza_ITS2_CartesianAngleValue_constraint
+	Vanetza_ITS2_CartesianAngularAccelerationComponentValue_constraint
+	Vanetza_ITS2_CartesianAngularVelocityComponentValue_constraint
+	Vanetza_ITS2_CartesianCoordinateLarge_constraint
+	Vanetza_ITS2_CartesianCoordinateSmall_constraint
+	Vanetza_ITS2_CartesianCoordinate_constraint
+	Vanetza_ITS2_CauseCodeType_constraint
+	Vanetza_ITS2_CenDsrcTollingZoneID_constraint
+	Vanetza_ITS2_ClusterBreakupReason_constraint
+	Vanetza_ITS2_ClusterLeaveReason_constraint
+	Vanetza_ITS2_CollisionRiskSubCauseCode_constraint
+	Vanetza_ITS2_ConfidenceLevel_constraint
+	Vanetza_ITS2_ConstraintWrappedCpmContainers_constraint
+	Vanetza_ITS2_CoordinateConfidence_constraint
+	Vanetza_ITS2_CorrelationCellValue_constraint
+	Vanetza_ITS2_CountryCode_constraint
+	Vanetza_ITS2_CpmContainerId_constraint
+	Vanetza_ITS2_CurvatureValue_constraint
+	Vanetza_ITS2_DangerousEndOfQueueSubCauseCode_constraint
+	Vanetza_ITS2_DangerousSituationSubCauseCode_constraint
+	Vanetza_ITS2_DeltaAltitude_constraint
+	Vanetza_ITS2_DeltaLatitude_constraint
+	Vanetza_ITS2_DeltaLongitude_constraint
+	Vanetza_ITS2_DeltaTimeMilliSecondPositive_constraint
+	Vanetza_ITS2_DeltaTimeMilliSecondSigned_constraint
+	Vanetza_ITS2_DeltaTimeQuarterSecond_constraint
+	Vanetza_ITS2_DeltaTimeSecond_constraint
+	Vanetza_ITS2_DeltaTimeTenSeconds_constraint
+	Vanetza_ITS2_DeltaTimeTenthOfSecond_constraint
+	Vanetza_ITS2_Direction_constraint
+	Vanetza_ITS2_DrivingLaneStatus_constraint
+	Vanetza_ITS2_EmergencyPriority_constraint
+	Vanetza_ITS2_EmergencyVehicleApproachingSubCauseCode_constraint
+	Vanetza_ITS2_EnergyStorageType_constraint
+	Vanetza_ITS2_EventZone_constraint
+	Vanetza_ITS2_Ext3_constraint
+	Vanetza_ITS2_ExteriorLights_constraint
+	Vanetza_ITS2_GenerationDeltaTime_constraint
+	Vanetza_ITS2_HazardousLocation_AnimalOnTheRoadSubCauseCode_constraint
+	Vanetza_ITS2_HazardousLocation_DangerousCurveSubCauseCode_constraint
+	Vanetza_ITS2_HazardousLocation_ObstacleOnTheRoadSubCauseCode_constraint
+	Vanetza_ITS2_HazardousLocation_SurfaceConditionSubCauseCode_constraint
+	Vanetza_ITS2_HeadingConfidence_constraint
+	Vanetza_ITS2_HeadingValue_constraint
+	Vanetza_ITS2_HeightLonCarr_constraint
+	Vanetza_ITS2_HumanPresenceOnTheRoadSubCauseCode_constraint
+	Vanetza_ITS2_HumanProblemSubCauseCode_constraint
+	Vanetza_ITS2_Identifier1B_constraint
+	Vanetza_ITS2_Identifier2B_constraint
+	Vanetza_ITS2_ImpassabilitySubCauseCode_constraint
+	Vanetza_ITS2_InformationQuality_constraint
+	Vanetza_ITS2_Iso3833VehicleType_constraint
+	Vanetza_ITS2_IssuerIdentifier_constraint
+	Vanetza_ITS2_IviIdentificationNumber_constraint
+	Vanetza_ITS2_LanePosition_constraint
+	Vanetza_ITS2_LaneType_constraint
+	Vanetza_ITS2_LaneWidth_constraint
+	Vanetza_ITS2_LateralAccelerationValue_constraint
+	Vanetza_ITS2_Latitude_constraint
+	Vanetza_ITS2_LightBarSirenInUse_constraint
+	Vanetza_ITS2_Longitude_constraint
+	Vanetza_ITS2_LongitudinalAccelerationValue_constraint
+	Vanetza_ITS2_LongitudinalLanePositionConfidence_constraint
+	Vanetza_ITS2_LongitudinalLanePositionValue_constraint
+	Vanetza_ITS2_MatrixIncludedComponents_constraint
+	Vanetza_ITS2_MessageId_constraint
+	Vanetza_ITS2_NumberOfOccupants_constraint
+	Vanetza_ITS2_ObjectDimensionConfidence_constraint
+	Vanetza_ITS2_ObjectDimensionValue_constraint
+	Vanetza_ITS2_ObjectPerceptionQuality_constraint
+	Vanetza_ITS2_OrdinalNumber1B_constraint
+	Vanetza_ITS2_OrdinalNumber3b_constraint
+	Vanetza_ITS2_OtherSubClass_constraint
+	Vanetza_ITS2_PathDeltaTime_constraint
+	Vanetza_ITS2_PathId_constraint
+	Vanetza_ITS2_PerformanceClass_constraint
+	Vanetza_ITS2_PhoneNumber_constraint
+	Vanetza_ITS2_PosCentMass_constraint
+	Vanetza_ITS2_PosFrontAx_constraint
+	Vanetza_ITS2_PosLonCarr_constraint
+	Vanetza_ITS2_PosPillar_constraint
+	Vanetza_ITS2_Position1d_constraint
+	Vanetza_ITS2_PositionOfOccupants_constraint
+	Vanetza_ITS2_PostCrashSubCauseCode_constraint
+	Vanetza_ITS2_PrecipitationIntensity_constraint
+	Vanetza_ITS2_ProtectedZoneId_constraint
+	Vanetza_ITS2_ProtectedZoneRadius_constraint
+	Vanetza_ITS2_PtActivationData_constraint
+	Vanetza_ITS2_PtActivationType_constraint
+	Vanetza_ITS2_RailwayLevelCrossingSubCauseCode_constraint
+	Vanetza_ITS2_RescueAndRecoveryWorkInProgressSubCauseCode_constraint
+	Vanetza_ITS2_RoadSectionId_constraint
+	Vanetza_ITS2_RoadworksSubCauseCode_constraint
+	Vanetza_ITS2_SemiAxisLength_constraint
+	Vanetza_ITS2_SensorType_constraint
+	Vanetza_ITS2_SensorTypes_constraint
+	Vanetza_ITS2_SequenceNumber_constraint
+	Vanetza_ITS2_SignalViolationSubCauseCode_constraint
+	Vanetza_ITS2_SlowVehicleSubCauseCode_constraint
+	Vanetza_ITS2_SpecialTransportType_constraint
+	Vanetza_ITS2_SpeedConfidence_constraint
+	Vanetza_ITS2_SpeedLimit_constraint
+	Vanetza_ITS2_SpeedValue_constraint
+	Vanetza_ITS2_StabilityLossProbability_constraint
+	Vanetza_ITS2_StandardLength12b_constraint
+	Vanetza_ITS2_StandardLength1B_constraint
+	Vanetza_ITS2_StandardLength2B_constraint
+	Vanetza_ITS2_StandardLength9b_constraint
+	Vanetza_ITS2_StationID_constraint
+	Vanetza_ITS2_StationType_constraint
+	Vanetza_ITS2_StationaryVehicleSubCauseCode_constraint
+	Vanetza_ITS2_SteeringWheelAngleConfidence_constraint
+	Vanetza_ITS2_SteeringWheelAngleValue_constraint
+	Vanetza_ITS2_StoredInformationType_constraint
+	Vanetza_ITS2_SubCauseCodeType_constraint
+	Vanetza_ITS2_Temperature_constraint
+	Vanetza_ITS2_TimestampIts_constraint
+	Vanetza_ITS2_TrafficConditionSubCauseCode_constraint
+	Vanetza_ITS2_TrafficParticipantType_constraint
+	Vanetza_ITS2_TrajectoryInterceptionConfidence_constraint
+	Vanetza_ITS2_TrajectoryInterceptionProbability_constraint
+	Vanetza_ITS2_TransmissionInterval_constraint
+	Vanetza_ITS2_TurningRadius_constraint
+	Vanetza_ITS2_VDS_constraint
+	Vanetza_ITS2_ValidityDuration_constraint
+	Vanetza_ITS2_VehicleBreakdownSubCauseCode_constraint
+	Vanetza_ITS2_VehicleHeight_constraint
+	Vanetza_ITS2_VehicleLengthValue_constraint
+	Vanetza_ITS2_VehicleMass_constraint
+	Vanetza_ITS2_VehicleWidth_constraint
+	Vanetza_ITS2_VelocityComponentValue_constraint
+	Vanetza_ITS2_VerticalAccelerationValue_constraint
+	Vanetza_ITS2_VruClusterProfiles_constraint
+	Vanetza_ITS2_VruDeviceUsage_constraint
+	Vanetza_ITS2_VruEnvironment_constraint
+	Vanetza_ITS2_VruMovementControl_constraint
+	Vanetza_ITS2_VruSizeClass_constraint
+	Vanetza_ITS2_VruSpecificExteriorLights_constraint
+	Vanetza_ITS2_VruSubProfileAnimal_constraint
+	Vanetza_ITS2_VruSubProfileBicyclist_constraint
+	Vanetza_ITS2_VruSubProfileMotorcyclist_constraint
+	Vanetza_ITS2_VruSubProfilePedestrian_constraint
+	Vanetza_ITS2_WMInumber_constraint
+	Vanetza_ITS2_Wgs84AngleConfidence_constraint
+	Vanetza_ITS2_Wgs84AngleValue_constraint
+	Vanetza_ITS2_WheelBaseVehicle_constraint
+	Vanetza_ITS2_WrongWayDrivingSubCauseCode_constraint
+	Vanetza_ITS2_YawRateValue_constraint

@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/Karel Hevessy/src/vanetza-build/vanetza/asn1/CMakeLists.txt
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(247,5): warning MSB8064: Custom build for item "C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\CMakeLists.txt" succeeded, but specified dependency "c:\users\karel hevessy\src\vanetza-build\vanetza\asn1\cmakelists.txt" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(247,5): warning MSB8065: Custom build for item "C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\CMakeLists.txt" succeeded, but specified output "c:\users\karel hevessy\src\vanetza-build\shared\vanetza\asn1\cmakefiles\generate.stamp" has not been created. This may cause incremental build to work incorrectly.
+  asn1c_wrapper.cpp
+  Auto build dll exports
+     Creating library C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/Release/vanetza_asn1.lib and object C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/Release/vanetza_asn1.exp
+  asn1.vcxproj -> C:\Users\Karel Hevessy\src\vanetza-build\shared\bin\Release\vanetza_asn1.dll

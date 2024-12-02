@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\burst_budget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\bursty_transmit_rate_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\channel_load.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\flow_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\fully_meshed_state_machine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\gradual_state_machine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\hooked_channel_probe_processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\limeric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\limeric_budget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\limeric_transmit_rate_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\mapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\single_reactive_transmit_rate_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\state_machine_budget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\smoothing_channel_probe_processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\transmission.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\dcc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{140E373B-CE7B-3A9D-9E1D-43A14B3002F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

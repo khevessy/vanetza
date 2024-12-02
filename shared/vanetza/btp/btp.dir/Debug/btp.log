@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/Karel Hevessy/src/vanetza-build/vanetza/btp/CMakeLists.txt
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(247,5): warning MSB8064: Custom build for item "C:\Users\Karel Hevessy\src\vanetza-build\vanetza\btp\CMakeLists.txt" succeeded, but specified dependency "c:\users\karel hevessy\src\vanetza-build\vanetza\btp\cmakelists.txt" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(247,5): warning MSB8065: Custom build for item "C:\Users\Karel Hevessy\src\vanetza-build\vanetza\btp\CMakeLists.txt" succeeded, but specified output "c:\users\karel hevessy\src\vanetza-build\shared\vanetza\btp\cmakefiles\generate.stamp" has not been created. This may cause incremental build to work incorrectly.
+  data_indication.cpp
+C:\Users\Karel Hevessy\src\vanetza-build\vanetza/common/confident_quantity.hpp(25,46): warning C4003: not enough arguments for function-like macro invocation 'max'
+  data_request.cpp
+  header.cpp
+  port_dispatcher.cpp
+C:\Users\Karel Hevessy\src\vanetza-build\vanetza/common/confident_quantity.hpp(25,46): warning C4003: not enough arguments for function-like macro invocation 'max'
+  Generating Code...
+  Auto build dll exports
+     Creating library C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/Debug/vanetza_btp.lib and object C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/Debug/vanetza_btp.exp
+  btp.vcxproj -> C:\Users\Karel Hevessy\src\vanetza-build\shared\bin\Debug\vanetza_btp.dll

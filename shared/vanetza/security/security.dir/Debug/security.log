@@ -1,0 +1,69 @@
+﻿  Building Custom Rule C:/Users/Karel Hevessy/src/vanetza-build/vanetza/security/CMakeLists.txt
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(247,5): warning MSB8064: Custom build for item "C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\CMakeLists.txt" succeeded, but specified dependency "c:\users\karel hevessy\src\vanetza-build\vanetza\security\cmakelists.txt" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(247,5): warning MSB8065: Custom build for item "C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\CMakeLists.txt" succeeded, but specified output "c:\users\karel hevessy\src\vanetza-build\shared\vanetza\security\cmakefiles\generate.stamp" has not been created. This may cause incremental build to work incorrectly.
+  backend.cpp
+  backend_cryptopp.cpp
+  backend_null.cpp
+  cam_ssp.cpp
+  decap_service.cpp
+  delegating_security_entity.cpp
+  ecdsa256.cpp
+  encap_service.cpp
+  hashed_id.cpp
+  key_type.cpp
+  peer_request_tracker.cpp
+  sha.cpp
+  straight_verify_service.cpp
+  basic_elements.cpp
+  default_certificate_validator.cpp
+  encryption_parameter.cpp
+  header_field.cpp
+  int_x.cpp
+  length_coding.cpp
+  null_certificate_provider.cpp
+  Generating Code...
+  Compiling...
+  null_certificate_validator.cpp
+  payload.cpp
+  public_key.cpp
+  recipient_info.cpp
+  region.cpp
+  serialization.cpp
+  signer_info.cpp
+  subject_attribute.cpp
+  subject_info.cpp
+  trailer_field.cpp
+  trust_store.cpp
+  validity_restriction.cpp
+  verification.cpp
+  asn1_conversions.cpp
+  certificate_validator.cpp
+  distance.cpp
+  hash.cpp
+  verify_service.cpp
+  Generating Code...
+C:\Users\Karel Hevessy\src\vanetza-build\vanetza\security\v2\trailer_field.cpp(86): warning C4717: 'vanetza::security::v2::extract_signature_buffer': recursive on all control paths, function will cause runtime stack overflow
+  ecc_point.cpp
+  secured_message.cpp
+  signature.cpp
+  certificate.cpp
+  certificate_cache.cpp
+  ecc_point.cpp
+  naive_certificate_provider.cpp
+  persistence.cpp
+  secured_message.cpp
+  sign_header_policy.cpp
+  signature.cpp
+  sign_service.cpp
+  static_certificate_provider.cpp
+  certificate.cpp
+  certificate_cache.cpp
+  secured_message.cpp
+  sign_service.cpp
+  naive_certificate_provider.cpp
+  sign_header_policy.cpp
+  static_certificate_provider.cpp
+  persistence.cpp
+  Auto build dll exports
+     Creating library C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/Debug/vanetza_security.lib and object C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/Debug/vanetza_security.exp
+  security.vcxproj -> C:\Users\Karel Hevessy\src\vanetza-build\shared\bin\Debug\vanetza_security.dll

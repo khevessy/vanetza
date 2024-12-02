@@ -1,0 +1,18 @@
+/* asn1_its_r2: itsAsnR2Includes.c */
+
+#include "OCTET_STRING.c"
+#include "BIT_STRING.c"
+#include "UTF8String.c"
+#include "constr_SEQUENCE_OF.c"
+#include "constr_SEQUENCE.c"
+#include "NativeInteger.c"
+#include "NativeEnumerated.c"
+#include "IA5String.c"
+#include "constr_CHOICE.c"
+#include "OPEN_TYPE.c"
+#include "NumericString.c"
+#include "INTEGER.c"
+#include "BOOLEAN.c"
+#include "VisibleString.c"
+#include "NumericString.h"
+#include "NULL.c"

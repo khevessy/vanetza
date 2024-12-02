@@ -1,0 +1,4 @@
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/btp/btp.dir/Debug/data_indication.obj
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/btp/btp.dir/Debug/data_request.obj
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/btp/btp.dir/Debug/header.obj
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/btp/btp.dir/Debug/port_dispatcher.obj

@@ -1,0 +1,3 @@
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/facilities/facilities.dir/Debug/cam_functions.obj
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/facilities/facilities.dir/Debug/path_history.obj
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/facilities/facilities.dir/Debug/path_point.obj

@@ -1,0 +1,799 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F89C6A6D-4966-30E9-BDBE-99C6FCD61232}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>asn1_its_r2</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Karel Hevessy\src\vanetza-build\shared\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">asn1_its_r2.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vanetza_asn1_its_r2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Karel Hevessy\src\vanetza-build\shared\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">asn1_its_r2.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vanetza_asn1_its_r2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Karel Hevessy\src\vanetza-build\shared\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">asn1_its_r2.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vanetza_asn1_its_r2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Karel Hevessy\src\vanetza-build\shared\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">asn1_its_r2.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vanetza_asn1_its_r2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Karel Hevessy\src\vanetza-build;C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\support;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug";asn1_its_r2_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";asn1_its_r2_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Karel Hevessy\src\vanetza-build;C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\support;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Karel Hevessy\src\vanetza-build;C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\support;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd "C:\Users\Karel Hevessy\src\vanetza-build\shared\vanetza\asn1"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E __create_def "C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/asn1_its_r2.dir/Debug/exports.def" "C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/asn1_its_r2.dir/Debug//objects.txt"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\static\Debug\vanetza_asn1_support.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/Debug/vanetza_asn1_its_r2.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/asn1_its_r2.dir/Debug/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Karel Hevessy/src/vanetza-build/shared/bin/Debug/vanetza_asn1_its_r2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Karel Hevessy\src\vanetza-build;C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\support;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";asn1_its_r2_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";asn1_its_r2_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Karel Hevessy\src\vanetza-build;C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\support;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Karel Hevessy\src\vanetza-build;C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\support;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd "C:\Users\Karel Hevessy\src\vanetza-build\shared\vanetza\asn1"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E __create_def "C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/asn1_its_r2.dir/Release/exports.def" "C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/asn1_its_r2.dir/Release//objects.txt"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\static\Release\vanetza_asn1_support.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/Release/vanetza_asn1_its_r2.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/asn1_its_r2.dir/Release/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Karel Hevessy/src/vanetza-build/shared/bin/Release/vanetza_asn1_its_r2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Karel Hevessy\src\vanetza-build;C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\support;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";asn1_its_r2_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";asn1_its_r2_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Karel Hevessy\src\vanetza-build;C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\support;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Karel Hevessy\src\vanetza-build;C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\support;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd "C:\Users\Karel Hevessy\src\vanetza-build\shared\vanetza\asn1"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E __create_def "C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/asn1_its_r2.dir/MinSizeRel/exports.def" "C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/asn1_its_r2.dir/MinSizeRel//objects.txt"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\static\MinSizeRel\vanetza_asn1_support.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/MinSizeRel/vanetza_asn1_its_r2.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/asn1_its_r2.dir/MinSizeRel/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Karel Hevessy/src/vanetza-build/shared/bin/MinSizeRel/vanetza_asn1_its_r2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Karel Hevessy\src\vanetza-build;C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\support;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";asn1_its_r2_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";asn1_its_r2_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Karel Hevessy\src\vanetza-build;C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\support;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Karel Hevessy\src\vanetza-build;C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\support;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd "C:\Users\Karel Hevessy\src\vanetza-build\shared\vanetza\asn1"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E __create_def "C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/asn1_its_r2.dir/RelWithDebInfo/exports.def" "C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/asn1_its_r2.dir/RelWithDebInfo//objects.txt"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\static\RelWithDebInfo\vanetza_asn1_support.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/RelWithDebInfo/vanetza_asn1_its_r2.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/asn1_its_r2.dir/RelWithDebInfo/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Karel Hevessy/src/vanetza-build/shared/bin/RelWithDebInfo/vanetza_asn1_its_r2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Karel Hevessy/src/vanetza-build/vanetza/asn1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Karel Hevessy/src/vanetza-build" "-BC:/Users/Karel Hevessy/src/vanetza-build/shared" --check-stamp-file "C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Karel Hevessy\src\vanetza-build\shared\vanetza\asn1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Karel Hevessy/src/vanetza-build/vanetza/asn1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Karel Hevessy/src/vanetza-build" "-BC:/Users/Karel Hevessy/src/vanetza-build/shared" --check-stamp-file "C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Karel Hevessy\src\vanetza-build\shared\vanetza\asn1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Karel Hevessy/src/vanetza-build/vanetza/asn1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Karel Hevessy/src/vanetza-build" "-BC:/Users/Karel Hevessy/src/vanetza-build/shared" --check-stamp-file "C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Karel Hevessy\src\vanetza-build\shared\vanetza\asn1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Karel Hevessy/src/vanetza-build/vanetza/asn1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Karel Hevessy/src/vanetza-build" "-BC:/Users/Karel Hevessy/src/vanetza-build/shared" --check-stamp-file "C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/asn1/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Karel Hevessy\src\vanetza-build\shared\vanetza\asn1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\vanetza\asn1\its\r2\ActionId_copy.c" />
+    <ClCompile Include="..\..\..\vanetza\asn1\its\r2\StationId_copy.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Acceleration3dWithConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AccelerationCartesian.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AccelerationChange.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AccelerationChangeIndication.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AccelerationComponent.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AccelerationConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AccelerationControl.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AccelerationMagnitude.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AccelerationMagnitudeValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AccelerationPolarWithZ.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AccelerationValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AccessTechnologyClass.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AccidentSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ActionID.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ActionIdList.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AdverseWeatherCondition-AdhesionSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AdverseWeatherCondition-ExtremeWeatherConditionSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AdverseWeatherCondition-PrecipitationSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AdverseWeatherCondition-VisibilitySubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AirHumidity.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AlacarteContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Altitude.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AltitudeConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AltitudeValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AngleConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AngularAccelerationConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AngularSpeedConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\AxlesCount.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\BarometricPressure.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\BasicContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\BasicLaneConfiguration.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\BasicLaneInformation.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\BasicVehicleContainerHighFrequency.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\BasicVehicleContainerLowFrequency.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\BogiesCount.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CAM.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CPM-PDU-Descriptions_ManagementContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CamParameters.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CamPayload.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CardinalNumber1B.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CardinalNumber3b.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CartesianAngle.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CartesianAngleValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CartesianAngularAccelerationComponent.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CartesianAngularAccelerationComponentValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CartesianAngularVelocityComponent.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CartesianAngularVelocityComponentValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CartesianCoordinate.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CartesianCoordinateLarge.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CartesianCoordinateSmall.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CartesianCoordinateWithConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CartesianPosition3d.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CartesianPosition3dWithConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CauseCodeChoice.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CauseCodeType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CauseCodeV2.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CenDsrcTollingZone.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CenDsrcTollingZoneID.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CircularShape.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ClosedLanes.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ClusterBreakupInfo.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ClusterBreakupReason.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ClusterJoinInfo.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ClusterLeaveInfo.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ClusterLeaveReason.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CollectivePerceptionMessage.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CollisionRiskSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ConfidenceLevel.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ConstraintWrappedCpmContainers.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CoordinateConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CorrelationCellValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CorrelationColumn.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CountryCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CpmContainerId.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CpmPayload.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Curvature.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CurvatureCalculationMode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CurvatureConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\CurvatureValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DENM-PDU-Description_ManagementContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DENM.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DangerousEndOfQueueSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DangerousGoodsBasic.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DangerousGoodsContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DangerousGoodsExtended.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DangerousSituationSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DeltaAltitude.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DeltaLatitude.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DeltaLongitude.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DeltaReferencePosition.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DeltaTimeMilliSecondPositive.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DeltaTimeMilliSecondSigned.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DeltaTimeQuarterSecond.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DeltaTimeSecond.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DeltaTimeTenSeconds.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DeltaTimeTenthOfSecond.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DenmPayload.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DigitalMap.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Direction.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DriveDirection.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\DrivingLaneStatus.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EllipticalShape.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EmbarkationStatus.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EmergencyContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EmergencyPriority.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EmergencyVehicleApproachingSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EnergyStorageType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EuVehicleCategoryCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EuVehicleCategoryL.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EuVehicleCategoryM.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EuVehicleCategoryN.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EuVehicleCategoryO.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EulerAnglesWithConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EventHistory.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EventPoint.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\EventZone.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Ext1.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Ext2.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Ext3.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ExteriorLights.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\GeneralizedLanePosition.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\GeneralizedLanePositions.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\GenerationDeltaTime.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\GeoPosition.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\HardShoulderStatus.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\HazardousLocation-AnimalOnTheRoadSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\HazardousLocation-DangerousCurveSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\HazardousLocation-ObstacleOnTheRoadSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\HazardousLocation-SurfaceConditionSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Heading.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\HeadingChangeIndication.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\HeadingConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\HeadingValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\HeightLonCarr.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\HighFrequencyContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\HumanPresenceOnTheRoadSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\HumanProblemSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Identifier1B.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Identifier2B.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ImpactReductionContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ImpassabilitySubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\InformationQuality.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\InterferenceManagementChannel.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\InterferenceManagementInfo.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\InterferenceManagementInfoPerChannel.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\InterferenceManagementZone.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\InterferenceManagementZoneDefinition.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\InterferenceManagementZoneType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\InterferenceManagementZones.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\IntersectionReferenceId.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Iso3833VehicleType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\IssuerIdentifier.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ItineraryPath.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ItsPduHeader.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\IviIdentificationNumber.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\IvimReference.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\IvimReferences.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LanePosition.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LanePositionAndType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LanePositionOptions.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LanePositionWithLateralDetails.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LaneType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LaneWidth.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LateralAcceleration.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LateralAccelerationValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Latitude.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LightBarSirenInUse.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LocationContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Longitude.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LongitudinalAcceleration.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LongitudinalAccelerationValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LongitudinalLanePosition.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LongitudinalLanePositionConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LongitudinalLanePositionValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LowFrequencyContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LowerTriangularPositiveSemidefiniteMatrices.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LowerTriangularPositiveSemidefiniteMatrix.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\LowerTriangularPositiveSemidefiniteMatrixColumns.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MapPosition.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MapReference.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MapReferences.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MapemConfiguration.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MapemConnectionList.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MapemElementReference.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MapemLaneList.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MatrixIncludedComponents.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MessageId.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MessageRateHz.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MessageRateRange.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MessageSegmentationInfo.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MetaInformation.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MitigationForTechnologies.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\MitigationPerTechnologyClass.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\NumberOfOccupants.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ObjectClass.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ObjectClassDescription.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ObjectClassWithConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ObjectDimension.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ObjectDimensionConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ObjectDimensionValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ObjectFace.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ObjectPerceptionQuality.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\OccupiedLanesWithConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\OpeningDaysHours.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\OrdinalNumber1B.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\OrdinalNumber3b.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\OriginatingRsuContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\OriginatingVehicleContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\OtherSubClass.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Path.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PathDeltaTime.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PathDeltaTimeChoice.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PathExtended.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PathHistory.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PathId.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PathPoint.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PathPointPredicted.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PathPredicted.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PathPredicted2.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PathPredictedList.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PathReferences.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PerceivedObject.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PerceivedObjectContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PerceivedObjectIds.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PerceivedObjects.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PerceptionRegion.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PerceptionRegionContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PerformanceClass.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PhoneNumber.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PolygonalShape.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PosCentMass.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PosConfidenceEllipse.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PosFrontAx.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PosLonCarr.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PosPillar.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Position1d.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PositionConfidenceEllipse.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PositionOfOccupants.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PositionOfPillars.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PositioningSolutionType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PostCrashSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PreCrashContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PrecipitationIntensity.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ProtectedCommunicationZone.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ProtectedCommunicationZonesRSU.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ProtectedZoneId.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ProtectedZoneRadius.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ProtectedZoneType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Provider.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PtActivation.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PtActivationData.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PtActivationType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\PublicTransportContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RSUContainerHighFrequency.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RadialShape.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RadialShapeDetails.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RadialShapes.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RadialShapesList.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RailwayLevelCrossingSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RectangularShape.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ReferencePosition.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ReferencePositionWithConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RelevanceDistance.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RelevanceTrafficDirection.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RequestResponseIndication.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RescueAndRecoveryWorkInProgressSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RescueContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RestrictedTypes.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RoadConfigurationContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RoadConfigurationSection.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RoadConfigurationSectionList.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RoadSectionDefinition.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RoadSectionId.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RoadSegmentReferenceId.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RoadType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RoadWorksContainerBasic.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RoadWorksContainerExtended.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\RoadworksSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SafeDistanceIndication.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SafeDistanceIndicator.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SafetyCarContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SemiAxisLength.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SensorInformation.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SensorInformationContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SensorType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SensorTypes.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SequenceNumber.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SequenceOfCartesianPosition3d.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SequenceOfIdentifier1B.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SequenceOfSafeDistanceIndication.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SequenceOfTrajectoryInterceptionIndication.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Shape.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SignalViolationSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SituationContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SlowVehicleSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SpecialTransportContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SpecialTransportType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SpecialVehicleContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Speed.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SpeedConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SpeedLimit.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SpeedValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\StabilityChangeIndication.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\StabilityLossProbability.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\StandardLength12b.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\StandardLength1B.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\StandardLength2B.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\StandardLength3b.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\StandardLength9b.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\StationID.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\StationType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\StationarySince.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\StationaryVehicleContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\StationaryVehicleSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SteeringWheelAngle.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SteeringWheelAngleConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SteeringWheelAngleValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\StoredInformationType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\SubCauseCodeType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Temperature.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Termination.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TimestampIts.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Traces.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TracesExtended.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TrafficConditionSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TrafficDirection.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TrafficIslandPosition.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TrafficParticipantType.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TrafficRule.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TrailerData.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TrailerDataSet.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TrailerPresenceInformation.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TrajectoryInterceptionConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TrajectoryInterceptionIndication.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TrajectoryInterceptionProbability.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TransmissionInterval.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TurningDirection.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\TurningRadius.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\UsageIndication.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VDS.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\ValidityDuration.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VarLengthNumber.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VehicleBreakdownSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VehicleHeight.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VehicleIdentification.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VehicleLength.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VehicleLengthConfidenceIndication.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VehicleLengthV2.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VehicleLengthValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VehicleMass.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VehicleRole.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VehicleWidth.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Velocity3dWithConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VelocityCartesian.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VelocityComponent.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VelocityComponentValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VelocityPolarWithZ.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VerticalAcceleration.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VerticalAccelerationValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VruClusterInformation.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VruClusterProfiles.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VruDeviceUsage.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VruEnvironment.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VruExteriorLights.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VruMovementControl.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VruProfileAndSubprofile.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VruSizeClass.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VruSpecificExteriorLights.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VruSubProfileAnimal.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VruSubProfileBicyclist.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VruSubProfileMotorcyclist.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\VruSubProfilePedestrian.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\WMInumber.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Wgs84Angle.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Wgs84AngleConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\Wgs84AngleValue.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\WheelBaseVehicle.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\WrappedCpmContainer.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\WrappedCpmContainers.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\WrongWayDrivingSubCauseCode.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\YawRate.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\YawRateConfidence.c" />
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\r2\YawRateValue.c" />
+    <ClCompile Include="itsAsnR2Includes.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Karel Hevessy\src\vanetza-build\shared\ZERO_CHECK.vcxproj">
+      <Project>{7FE8BDAC-AC61-36DD-9EF9-04B77847A37C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Karel Hevessy\src\vanetza-build\shared\vanetza\asn1\asn1_support.vcxproj">
+      <Project>{B072195C-BA5D-39AB-B058-1951C80A2680}</Project>
+      <Name>asn1_support</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\vanetza\asn1\its\r2\ActionID.h" />
+    <ClInclude Include="..\..\..\vanetza\asn1\its\r2\SequenceNumber.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

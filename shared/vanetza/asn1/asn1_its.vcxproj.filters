@@ -1,0 +1,2143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AbsolutePosition.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AbsolutePositionWAltitude.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AbsolutePositions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AbsolutePositionsWAltitude.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AccelerationConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AccelerationControl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AccidentSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ActionID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ActualNumberOfPassengers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AddRq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AdverseWeatherCondition-AdhesionSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AdverseWeatherCondition-ExtremeWeatherConditionSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AdverseWeatherCondition-PrecipitationSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AdverseWeatherCondition-VisibilitySubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AdvisorySpeed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AdvisorySpeedList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AdvisorySpeedType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AlacarteContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AllowedManeuvers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AlphabetIndicator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Altitude.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AltitudeConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AltitudeValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Angle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AngleConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AnimalSubclass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AnimalSubclassType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AntennaOffsetSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AnyCatalogue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ApproachID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AreaCircular.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AreaEllipse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AreaPolygon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AreaRadial.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AreaRectangle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AttributeIdList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AttributeList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Attributes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AutomatedVehicleContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AutomatedVehicleRule.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AutomatedVehicleRules.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AvcPart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AviEriDateTime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\AxleWeightLimits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\BankingAngle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\BasicContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\BasicVehicleContainerHighFrequency.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\BasicVehicleContainerLowFrequency.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\BasicVehicleRole.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\BatteryStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CAM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CO2EmissionValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CPM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CS1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CS2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CS3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CS4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CS5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CS7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CS8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CamParameters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CartesianAngle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CartesianAngleValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CauseCodeType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CenDsrcTollingZone.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CenDsrcTollingZoneID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ChannelId.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ChannelRq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ChannelRs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ClassConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ClosedLanes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Code-Units.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CollectivePerceptionMessage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CollisionRiskSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ComparisonOperator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CompleteVehicleCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ComputedLane.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ComputedSegment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Condition.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ConnectedDenms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ConnectingLane.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Connection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ConnectionManeuverAssist-addGrpC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ConnectionManeuverAssist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ConnectionTrajectory-addGrpC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ConnectsToList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ConstraintTextLines1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ConstraintTextLines2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ContractAuthenticator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ContractSerialNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ContractValidity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ContractVehicle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CoopAwareness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CopValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CopyRq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CountryCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CpmManagementContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CpmParameters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CreditRq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CreditRs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Curvature.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CurvatureCalculationMode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CurvatureConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\CurvatureValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DDD-IO-LIST.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DDD-IO.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DDateTime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DDay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DENM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DHour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DMinute.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DMonth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DOffset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DSRCmsgID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DSecond.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DYear.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DangerousEndOfQueueSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DangerousGoodsBasic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DangerousGoodsContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DangerousGoodsExtended.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DangerousSituationSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DataParameters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DateAndTime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DateCompact.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DayOfWeek.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DebitRq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DebitRs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DecentralizedEnvironmentalNotificationMessage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DefinitionAccuracy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DeltaAltitude.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DeltaAngle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DeltaLatitude.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DeltaLongitude.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DeltaPosition.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DeltaPositions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DeltaReferencePosition.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DeltaReferencePositions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DeltaTime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Depth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DescriptiveCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DescriptiveName.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DestinationPlace.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DestinationPlaces.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DestinationRoad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DestinationRoadType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DestinationRoads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DestinationType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DetectionArea.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DieselEmissionValues.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DigitalMap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Direction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Distance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DistanceConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DistanceOrDuration.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DistanceValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DriveDirection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DrivenLineOffsetLg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DrivenLineOffsetSm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DrivingLaneStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\DynamicStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EFC-ContextMark.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EfcDsrcApplication_DriverCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EfcDsrcApplication_TrailerCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Elevation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ElevationConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EmbarkationStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EmergencyContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EmergencyPriority.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EmergencyVehicleApproachingSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EmissionType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EnabledLaneList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EnergyStorageType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Engine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EngineCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EnvironmentalCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EquipmentOBUId.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EquipmentStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EuVehicleCategoryCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EuVehicleCategoryL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EuVehicleCategoryM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EuVehicleCategoryN.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EuVehicleCategoryO.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EuroValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EventHistory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\EventPoint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ExceptionalCondition.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ExhaustEmissionValues.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Ext1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Ext2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Ext3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ExteriorLights.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\FreeSpaceAddendum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\FreeSpaceAddendumContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\FreeSpaceArea.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\FreeSpaceConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\FreightContainerData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\FrictionCoefficient.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\FrontOverhang.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\FuelType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\FullPositionVector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\FutureCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GNSSstatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GapBetweenVehicles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GddAttribute.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GddAttributes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GddStructure.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GeneralIviContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GenerationDeltaTime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GenericLane.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GeoGraphicalLimit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GeographicLocationContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GetInstanceRq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GetInstanceRs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GetStampedRq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GetStampedRs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GicPart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GlcPart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GlcParts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\GoodsType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HardShoulderStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HazardousLocation-AnimalOnTheRoadSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HazardousLocation-DangerousCurveSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HazardousLocation-ObstacleOnTheRoadSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HazardousLocation-SurfaceConditionSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Heading.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HeadingConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HeadingIso.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HeadingIsoConfidenceIso.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HeadingValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HeightLonCarr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HighFrequencyContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HitchPointOffset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HoursMinutes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HumanPresenceOnTheRoadSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\HumanProblemSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ICC-Id.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ISO14823Attribute.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ISO14823Attributes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ISO14823Code.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ITS-Container_Temperature.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IVIM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IVI_DriverCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IVI_Temperature.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IVI_TrailerCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Identifier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ImpactReductionContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\InformationQuality.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Int1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Int2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Int3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Int4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\InternationalSign-applicablePeriod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\InternationalSign-applicableVehicleDimensions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\InternationalSign-destinationInformation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\InternationalSign-directionalFlowOfLane.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\InternationalSign-distanceBetweenVehicles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\InternationalSign-exemptedApplicablePeriod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\InternationalSign-numberOfLane.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\InternationalSign-rateOfIncline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\InternationalSign-section.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\InternationalSign-speedLimits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IntersectionAccessPoint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IntersectionGeometry.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IntersectionGeometryList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IntersectionID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IntersectionReferenceID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IntersectionState-addGrpC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IntersectionState.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IntersectionStateList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IntersectionStatusObject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Iso3833VehicleType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IssuerIdentifierIso.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ItineraryPath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ItsPduHeader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ItsStationPosition.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ItsStationPositionList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IviContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IviContainers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IviIdentificationNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IviIdentificationNumbers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IviLaneWidth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IviManagementContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IviPurpose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IviStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IviStructure.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\IviType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LPN.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneAttributes-Barrier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneAttributes-Bike.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneAttributes-Crosswalk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneAttributes-Parking.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneAttributes-Sidewalk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneAttributes-Striping.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneAttributes-TrackedVehicle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneAttributes-Vehicle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneAttributes-addGrpC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneAttributes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneConfiguration.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneConnectionID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneDataAttribute.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneDataAttributeList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneDelimitation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneDirection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneIds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneInformation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneMarkingStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LanePosition.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LanePositions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneSharing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneTypeAttributes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LaneWidth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LateralAcceleration.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LateralAccelerationValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Latitude.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LayerID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LayerType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LayoutComponent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LayoutComponents.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LayoutContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LicPlateNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LightBarSirenInUse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LoadType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LocationContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Longitude.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LongitudinalAcceleration.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LongitudinalAccelerationValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LongitudinalLanePosition.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LongitudinalLanePositionConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LongitudinalLanePositionValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\LowFrequencyContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MAPEM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ManagementContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ManeuverAssistList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ManufacturerIdentifier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MapData-addGrpC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MapData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MapLocationContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MapReference.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MarkingColour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MatchedPosition.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MaterialType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MaxLenghtOfPlatoon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MaxNoOfVehicles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MergeDivergeNodeAngle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MinuteOfTheYear.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MlcPart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MlcParts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MonthDay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MovementEvent-addGrpC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MovementEvent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MovementEventList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MovementList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MovementPhaseState.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MovementState.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\MsgCount.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Node-LLmD-64b.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Node-XY-20b.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Node-XY-22b.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Node-XY-24b.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Node-XY-26b.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Node-XY-28b.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Node-XY-32b.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Node.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\NodeAttributeSet-addGrpC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\NodeAttributeSetXY.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\NodeAttributeXY.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\NodeAttributeXYList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\NodeLink.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\NodeListXY.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\NodeOffsetPointXY.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\NodeOffsetPointZ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\NodeSetXY.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\NodeXY.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\NumberOfOccupants.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\NumberOfPerceivedObjects.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ObjectAge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ObjectClass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ObjectClassDescription.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ObjectConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ObjectDimension.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ObjectDimensionConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ObjectDimensionValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ObjectDistanceWithConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ObjectRefPoint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Offset-B09.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Offset-B10.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Offset-B11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Offset-B12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Offset-B13.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Offset-B14.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Offset-B16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\OffsetPoint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\OpeningDaysHours.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\OriginatingRSUContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\OriginatingVehicleContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\OtherSubclass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\OtherSublassType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\OverlayLaneList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PassengerCapacity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PathDeltaTime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PathHistory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PathPoint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PayUnit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PaymentFee.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PaymentMeans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PaymentMeansBalance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PaymentMeansUnit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PaymentSecurityData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PedestrianBicycleDetect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PerceivedObject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PerceivedObjectContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PerceivedObjectContainerSegmentInfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PerformanceClass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PersonSubclass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PersonSubclassType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PersonalAccountNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PhoneNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PlatooningRule.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PlatooningRules.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PolyPointList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PolygonalLine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PosCentMass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PosConfidenceEllipse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PosFrontAx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PosLonCarr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PosPillar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Position3D-addGrpC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Position3D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PositionConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PositionConfidenceSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PositionOfOccupants.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PositionOfPillars.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PositionalAccuracy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PositioningSolutionType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PostCrashSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PreemptPriorityList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PrioritizationResponse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PrioritizationResponseList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PrioritizationResponseStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PriorityLevel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PriorityRequestType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ProtectedCommunicationZone.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ProtectedCommunicationZonesRSU.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ProtectedZoneID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ProtectedZoneRadius.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ProtectedZoneType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Provider.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PtActivation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PtActivationData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PtActivationType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PtvRequestType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PublicTransportContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\PurseBalance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RSCUnit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RSCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RSUContainerHighFrequency.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RTCM-Revision.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RTCMEM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RTCMcorrections.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RTCMheader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RTCMmessage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RTCMmessageList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Radius.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Range.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RccPart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RearOverhang.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReceiptAuthenticator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReceiptContract.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReceiptData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReceiptData1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReceiptData2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReceiptDistance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReceiptFinancialPart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReceiptICC-Id.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReceiptOBUId.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReceiptServicePart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReceiptServiceSerialNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReceiptText.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RefPointId.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReferenceDenms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ReferencePosition.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RegionId.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RegionalExtension.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RegulatorySpeedLimit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RejectedReason.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RelevanceDistance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RelevanceTrafficDirection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RepeatingPeriodDayTypes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RequestID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RequestImportanceLevel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RequestResponseIndication.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RequestSubRole.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RequestorDescription-addGrpC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RequestorDescription.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RequestorPositionVector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RequestorType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RescueAndRecoveryWorkInProgressSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RescueContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RestrictedTypes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RestrictionAppliesTo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RestrictionClassAssignment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RestrictionClassID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RestrictionClassList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RestrictionUserType-addGrpC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RestrictionUserType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RestrictionUserTypeList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ResultFin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ResultOp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadConfigurationContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadLaneSetList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadRegulatorID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadSegment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadSegmentID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadSegmentList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadSegmentReferenceID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadSignCodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadSurfaceContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadSurfaceDynamicCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadSurfaceStaticCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadWorksContainerBasic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadWorksContainerExtended.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadwayCrownAngle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RoadworksSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\RscPart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SPAT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SPATEM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SREM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SSEM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SaeAutomationLevel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SaeAutomationLevels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SafetyCarContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Scale-B12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Segment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SegmentAttributeXY.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SegmentAttributeXYList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SegmentCount.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SemiAxisLength.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SemiMajorAxisAccuracy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SemiMajorAxisOrientation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SemiMinorAxisAccuracy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SemiRangeLength.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SensorHeight.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SensorIdList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SensorInformation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SensorInformationContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SensorType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SequenceNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ServiceApplicationLimit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ServiceNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SessionClass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SessionLocation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SetInstanceRq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SetMMIRq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SetStampedRq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ShadowingApplies.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalControlZone.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalGroupID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalHeadLocation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalHeadLocationList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalRequest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalRequestList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalRequestMessage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalRequestPackage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalRequesterInfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalStatusList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalStatusMessage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalStatusPackage-addGrpC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalStatusPackage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalStatusPackageList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignalViolationSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SignedValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SituationContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SlowVehicleSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SoundLevel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SpecialTransportContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SpecialTransportType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SpecialVehicleContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Speed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SpeedAdvice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SpeedConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SpeedConfidenceIso.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SpeedExtended.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SpeedLimit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SpeedLimitList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SpeedLimitType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SpeedValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SpeedValueExtended.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SpeedandHeadingIsoandThrottleConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\StartTime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\StationDataContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\StationID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\StationType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\StationTypeIso.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\StationarySince.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\StationaryVehicleContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\StationaryVehicleSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SteeringWheelAngle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SteeringWheelAngleConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SteeringWheelAngleValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\StopTime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SubCauseCodeType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\SubRq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TaxCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TcPart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TemporaryID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Termination.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Text.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TextContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TextLines.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ThrottleConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TimeChangeDetails.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TimeConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TimeIntervalConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TimeMark.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TimeOfMeasurement.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TimeReference.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TimestampIts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Traces.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TractorAxles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TractorCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TrafficConditionSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TrafficRule.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TrailerAxles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TrailerCharacteristicsFixValuesList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TrailerCharacteristicsList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TrailerCharacteristicsRangesList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TrailerData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TrailerDataContainer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TrailerDetails.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TrailerLicencePlateNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TrainCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TransitVehicleOccupancy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TransitVehicleStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TransmissionAndSpeed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TransmissionInterval.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TransmissionState.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TreatmentType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\TurningRadius.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\UnitType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VDS.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ValidityDuration.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ValidityOfContract.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ValidityPeriods.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VanetzaTest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VarLengthNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VcClass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VcCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VcOption.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleAuthenticator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleAxles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleBreakdownSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleCharacteristicsFixValues.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleCharacteristicsFixValuesList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleCharacteristicsList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleCharacteristicsRanges.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleCharacteristicsRangesList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleClass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleCurrentMaxTrainWeight.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleDimensions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleHeight.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleIdentification.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleIdentificationNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleLength.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleLengthConfidenceIndication.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleLengthValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleLicencePlateNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleMass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleRole.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleSensor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleSensorProperties.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleSensorPropertyList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleSpecificCharacteristics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleSubclass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleSubclassType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleTotalDistance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleWeightLaden.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleWeightLimits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VehicleWidth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Velocity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VerticalAcceleration.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\VerticalAccelerationValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\WGS84Angle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\WGS84AngleValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\WMInumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\WaitOnStopline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\WearLevel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Weight.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\WheelBaseVehicle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\WrongWayDrivingSubCauseCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\XSensorOffset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\YSensorOffset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\YawRate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\YawRateConfidence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\YawRateValue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ZSensorOffset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Zid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\Zone.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ZoneIds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\its\ZoneLength.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itsAsnIncludes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\asn1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{140E373B-CE7B-3A9D-9E1D-43A14B3002F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/common/common.dir/MinSizeRel/archives.obj
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/common/common.dir/MinSizeRel/byte_buffer_convertible.obj
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/common/common.dir/MinSizeRel/byte_buffer_sink.obj
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/common/common.dir/MinSizeRel/byte_buffer_source.obj
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/common/common.dir/MinSizeRel/byte_sequence.obj
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/common/common.dir/MinSizeRel/byte_view.obj
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/common/common.dir/MinSizeRel/clock.obj
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/common/common.dir/MinSizeRel/manual_runtime.obj
+C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/common/common.dir/MinSizeRel/unit_interval.obj

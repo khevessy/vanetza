@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Karel Hevessy\src\vanetza-build\shared\CMakeFiles\22ff3ecdeea539d02bf049774820fac8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1D67258B-2C10-342C-BBC2-52FA10279D17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

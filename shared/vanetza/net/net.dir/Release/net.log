@@ -1,0 +1,28 @@
+﻿  Building Custom Rule C:/Users/Karel Hevessy/src/vanetza-build/vanetza/net/CMakeLists.txt
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(247,5): warning MSB8064: Custom build for item "C:\Users\Karel Hevessy\src\vanetza-build\vanetza\net\CMakeLists.txt" succeeded, but specified dependency "c:\users\karel hevessy\src\vanetza-build\vanetza\net\cmakelists.txt" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(247,5): warning MSB8065: Custom build for item "C:\Users\Karel Hevessy\src\vanetza-build\vanetza\net\CMakeLists.txt" succeeded, but specified output "c:\users\karel hevessy\src\vanetza-build\shared\vanetza\net\cmakefiles\generate.stamp" has not been created. This may cause incremental build to work incorrectly.
+  buffer_packet.cpp
+  chunk_packet.cpp
+  cohesive_packet.cpp
+  ethernet_header.cpp
+  mac_address.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(2973,24): warning C4244: '=': conversion from 'long' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=uint8_t
+          ]
+C:\Users\Karel Hevessy\src\vanetza-build\vanetza\net\mac_address.cpp(59): message : see reference to function template instantiation '_OutIt std::transform<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::_Array_iterator<unsigned char,6>,vanetza::parse_mac_address::<lambda_7f27e837dbcf1805a393907eb1a24ba1>>(const _InIt,const _InIt,_OutIt,_Fn)' being compiled
+          with
+          [
+              _OutIt=std::_Array_iterator<uint8_t,6>,
+              _Ty=std::string,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::string>>>,
+              _Fn=vanetza::parse_mac_address::<lambda_7f27e837dbcf1805a393907eb1a24ba1>
+          ]
+  packet.cpp
+  packet_variant.cpp
+  proxy_header.cpp
+  Generating Code...
+  Auto build dll exports
+     Creating library C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/Release/vanetza_net.lib and object C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/Release/vanetza_net.exp
+  net.vcxproj -> C:\Users\Karel Hevessy\src\vanetza-build\shared\bin\Release\vanetza_net.dll

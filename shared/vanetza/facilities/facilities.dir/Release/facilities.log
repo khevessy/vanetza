@@ -1,0 +1,11 @@
+﻿  Building Custom Rule C:/Users/Karel Hevessy/src/vanetza-build/vanetza/facilities/CMakeLists.txt
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(247,5): warning MSB8064: Custom build for item "C:\Users\Karel Hevessy\src\vanetza-build\vanetza\facilities\CMakeLists.txt" succeeded, but specified dependency "c:\users\karel hevessy\src\vanetza-build\vanetza\facilities\cmakelists.txt" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(247,5): warning MSB8065: Custom build for item "C:\Users\Karel Hevessy\src\vanetza-build\vanetza\facilities\CMakeLists.txt" succeeded, but specified output "c:\users\karel hevessy\src\vanetza-build\shared\vanetza\facilities\cmakefiles\generate.stamp" has not been created. This may cause incremental build to work incorrectly.
+  cam_functions.cpp
+C:\Users\Karel Hevessy\src\vanetza-build\vanetza/common/confident_quantity.hpp(25,46): warning C4003: not enough arguments for function-like macro invocation 'max'
+  path_history.cpp
+  path_point.cpp
+  Generating Code...
+  Auto build dll exports
+     Creating library C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/Release/vanetza_facilities.lib and object C:/Users/Karel Hevessy/src/vanetza-build/shared/lib/static/Release/vanetza_facilities.exp
+  facilities.vcxproj -> C:\Users\Karel Hevessy\src\vanetza-build\shared\bin\Release\vanetza_facilities.dll

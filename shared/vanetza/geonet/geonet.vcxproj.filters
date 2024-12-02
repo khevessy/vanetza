@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\address.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\areas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\basic_header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\beacon_header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\cbf_packet_buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\cbf_counter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\cbf_packet_identifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\cbr_aggregator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\common_header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\data_confirm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\data_request.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\dcc_field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\dcc_information_sharing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\dcc_mco_field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\duplicate_packet_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\gbc_gac_header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\gbc_header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\gbc_memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\header_type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\header_variant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\indication_context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\mib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\sequence_number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\lifetime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\location_table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\next_hop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\packet_buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\pdu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\pdu_conversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\position_updater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\position_vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\repeater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\router.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\secured_pdu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\shb_header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\timestamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\traffic_class.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\tsb_header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\variant_pdu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Karel Hevessy\src\vanetza-build\vanetza\geonet\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{140E373B-CE7B-3A9D-9E1D-43A14B3002F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

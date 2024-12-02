@@ -1,0 +1,490 @@
+EXPORTS 
+	asn_DEF_Vanetza_Security_AaEntry 	 DATA
+	asn_DEF_Vanetza_Security_AesCcmCiphertext 	 DATA
+	asn_DEF_Vanetza_Security_AuthorizationRequestMessage 	 DATA
+	asn_DEF_Vanetza_Security_AuthorizationRequestMessageWithPop 	 DATA
+	asn_DEF_Vanetza_Security_AuthorizationResponseCode 	 DATA
+	asn_DEF_Vanetza_Security_AuthorizationResponseMessage 	 DATA
+	asn_DEF_Vanetza_Security_AuthorizationValidationRequest 	 DATA
+	asn_DEF_Vanetza_Security_AuthorizationValidationRequestMessage 	 DATA
+	asn_DEF_Vanetza_Security_AuthorizationValidationResponse 	 DATA
+	asn_DEF_Vanetza_Security_AuthorizationValidationResponseCode 	 DATA
+	asn_DEF_Vanetza_Security_AuthorizationValidationResponseMessage 	 DATA
+	asn_DEF_Vanetza_Security_BasePublicEncryptionKey 	 DATA
+	asn_DEF_Vanetza_Security_BitmapSsp 	 DATA
+	asn_DEF_Vanetza_Security_BitmapSspRange 	 DATA
+	asn_DEF_Vanetza_Security_CaCertificateRekeyingMessage 	 DATA
+	asn_DEF_Vanetza_Security_CaCertificateRequest 	 DATA
+	asn_DEF_Vanetza_Security_CaCertificateRequestMessage 	 DATA
+	asn_DEF_Vanetza_Security_Certificate 	 DATA
+	asn_DEF_Vanetza_Security_CertificateBase 	 DATA
+	asn_DEF_Vanetza_Security_CertificateFormat 	 DATA
+	asn_DEF_Vanetza_Security_CertificateId 	 DATA
+	asn_DEF_Vanetza_Security_CertificateRevocationListMessage 	 DATA
+	asn_DEF_Vanetza_Security_CertificateSubjectAttributes 	 DATA
+	asn_DEF_Vanetza_Security_CertificateType 	 DATA
+	asn_DEF_Vanetza_Security_CircularRegion 	 DATA
+	asn_DEF_Vanetza_Security_Countersignature 	 DATA
+	asn_DEF_Vanetza_Security_CountryAndRegions 	 DATA
+	asn_DEF_Vanetza_Security_CountryAndSubregions 	 DATA
+	asn_DEF_Vanetza_Security_CountryOnly 	 DATA
+	asn_DEF_Vanetza_Security_CrlEntry 	 DATA
+	asn_DEF_Vanetza_Security_CrlSeries 	 DATA
+	asn_DEF_Vanetza_Security_CtlCommand 	 DATA
+	asn_DEF_Vanetza_Security_CtlDelete 	 DATA
+	asn_DEF_Vanetza_Security_CtlEntry 	 DATA
+	asn_DEF_Vanetza_Security_CtlFormat 	 DATA
+	asn_DEF_Vanetza_Security_DcDelete 	 DATA
+	asn_DEF_Vanetza_Security_DcEntry 	 DATA
+	asn_DEF_Vanetza_Security_DeltaCtl 	 DATA
+	asn_DEF_Vanetza_Security_Duration 	 DATA
+	asn_DEF_Vanetza_Security_EaEntry 	 DATA
+	asn_DEF_Vanetza_Security_EcSignature 	 DATA
+	asn_DEF_Vanetza_Security_EccP256CurvePoint 	 DATA
+	asn_DEF_Vanetza_Security_EccP384CurvePoint 	 DATA
+	asn_DEF_Vanetza_Security_EcdsaP256Signature 	 DATA
+	asn_DEF_Vanetza_Security_EcdsaP384Signature 	 DATA
+	asn_DEF_Vanetza_Security_EciesP256EncryptedKey 	 DATA
+	asn_DEF_Vanetza_Security_ElevInt 	 DATA
+	asn_DEF_Vanetza_Security_Elevation 	 DATA
+	asn_DEF_Vanetza_Security_EncryptedData 	 DATA
+	asn_DEF_Vanetza_Security_EncryptedDataEncryptionKey 	 DATA
+	asn_DEF_Vanetza_Security_EncryptionKey 	 DATA
+	asn_DEF_Vanetza_Security_EndEntityType 	 DATA
+	asn_DEF_Vanetza_Security_EnrolmentRequestMessage 	 DATA
+	asn_DEF_Vanetza_Security_EnrolmentResponseCode 	 DATA
+	asn_DEF_Vanetza_Security_EnrolmentResponseMessage 	 DATA
+	asn_DEF_Vanetza_Security_EtsiTs102941Data 	 DATA
+	asn_DEF_Vanetza_Security_EtsiTs102941DataContent 	 DATA
+	asn_DEF_Vanetza_Security_EtsiTs103097Certificate 	 DATA
+	asn_DEF_Vanetza_Security_EtsiTs103097Data 	 DATA
+	asn_DEF_Vanetza_Security_EtsiTs103097Data_Encrypted_85P0 	 DATA
+	asn_DEF_Vanetza_Security_EtsiTs103097Data_Encrypted_85P1 	 DATA
+	asn_DEF_Vanetza_Security_EtsiTs103097Data_Encrypted_85P2 	 DATA
+	asn_DEF_Vanetza_Security_EtsiTs103097Data_Encrypted_Unicast_55P0 	 DATA
+	asn_DEF_Vanetza_Security_EtsiTs103097Data_SignedAndEncrypted_Unicast_64P0 	 DATA
+	asn_DEF_Vanetza_Security_EtsiTs103097Data_SignedExternalPayload 	 DATA
+	asn_DEF_Vanetza_Security_EtsiTs103097Data_Signed_55P0 	 DATA
+	asn_DEF_Vanetza_Security_EtsiTs103097Data_Signed_55P1 	 DATA
+	asn_DEF_Vanetza_Security_EtsiTs103097Data_Signed_55P2 	 DATA
+	asn_DEF_Vanetza_Security_ExplicitCertificate 	 DATA
+	asn_DEF_Vanetza_Security_FullCtl 	 DATA
+	asn_DEF_Vanetza_Security_GeographicRegion 	 DATA
+	asn_DEF_Vanetza_Security_GroupLinkageValue 	 DATA
+	asn_DEF_Vanetza_Security_HashAlgorithm 	 DATA
+	asn_DEF_Vanetza_Security_HashedData 	 DATA
+	asn_DEF_Vanetza_Security_HashedId10 	 DATA
+	asn_DEF_Vanetza_Security_HashedId3 	 DATA
+	asn_DEF_Vanetza_Security_HashedId8 	 DATA
+	asn_DEF_Vanetza_Security_HeaderInfo 	 DATA
+	asn_DEF_Vanetza_Security_Hostname 	 DATA
+	asn_DEF_Vanetza_Security_IValue 	 DATA
+	asn_DEF_Vanetza_Security_IdentifiedRegion 	 DATA
+	asn_DEF_Vanetza_Security_Ieee1609Dot2Content 	 DATA
+	asn_DEF_Vanetza_Security_Ieee1609Dot2Data 	 DATA
+	asn_DEF_Vanetza_Security_ImplicitCertificate 	 DATA
+	asn_DEF_Vanetza_Security_InnerAtRequest 	 DATA
+	asn_DEF_Vanetza_Security_InnerAtResponse 	 DATA
+	asn_DEF_Vanetza_Security_InnerEcRequest 	 DATA
+	asn_DEF_Vanetza_Security_InnerEcRequestSignedForPop 	 DATA
+	asn_DEF_Vanetza_Security_InnerEcResponse 	 DATA
+	asn_DEF_Vanetza_Security_IssuerIdentifier 	 DATA
+	asn_DEF_Vanetza_Security_KnownLatitude 	 DATA
+	asn_DEF_Vanetza_Security_KnownLongitude 	 DATA
+	asn_DEF_Vanetza_Security_LaId 	 DATA
+	asn_DEF_Vanetza_Security_Latitude 	 DATA
+	asn_DEF_Vanetza_Security_LinkageData 	 DATA
+	asn_DEF_Vanetza_Security_LinkageSeed 	 DATA
+	asn_DEF_Vanetza_Security_LinkageValue 	 DATA
+	asn_DEF_Vanetza_Security_Longitude 	 DATA
+	asn_DEF_Vanetza_Security_MissingCrlIdentifier 	 DATA
+	asn_DEF_Vanetza_Security_NinetyDegreeInt 	 DATA
+	asn_DEF_Vanetza_Security_OneEightyDegreeInt 	 DATA
+	asn_DEF_Vanetza_Security_Opaque 	 DATA
+	asn_DEF_Vanetza_Security_PKRecipientInfo 	 DATA
+	asn_DEF_Vanetza_Security_PolygonalRegion 	 DATA
+	asn_DEF_Vanetza_Security_PreSharedKeyRecipientInfo 	 DATA
+	asn_DEF_Vanetza_Security_Psid 	 DATA
+	asn_DEF_Vanetza_Security_PsidGroupPermissions 	 DATA
+	asn_DEF_Vanetza_Security_PsidSsp 	 DATA
+	asn_DEF_Vanetza_Security_PsidSspRange 	 DATA
+	asn_DEF_Vanetza_Security_PublicEncryptionKey 	 DATA
+	asn_DEF_Vanetza_Security_PublicKeys 	 DATA
+	asn_DEF_Vanetza_Security_PublicVerificationKey 	 DATA
+	asn_DEF_Vanetza_Security_RcaCertificateTrustListMessage 	 DATA
+	asn_DEF_Vanetza_Security_RecipientInfo 	 DATA
+	asn_DEF_Vanetza_Security_RectangularRegion 	 DATA
+	asn_DEF_Vanetza_Security_RegionAndSubregions 	 DATA
+	asn_DEF_Vanetza_Security_RootCaEntry 	 DATA
+	asn_DEF_Vanetza_Security_SequenceOfCertificate 	 DATA
+	asn_DEF_Vanetza_Security_SequenceOfHashedId3 	 DATA
+	asn_DEF_Vanetza_Security_SequenceOfIdentifiedRegion 	 DATA
+	asn_DEF_Vanetza_Security_SequenceOfOctetString 	 DATA
+	asn_DEF_Vanetza_Security_SequenceOfPsid 	 DATA
+	asn_DEF_Vanetza_Security_SequenceOfPsidGroupPermissions 	 DATA
+	asn_DEF_Vanetza_Security_SequenceOfPsidSsp 	 DATA
+	asn_DEF_Vanetza_Security_SequenceOfPsidSspRange 	 DATA
+	asn_DEF_Vanetza_Security_SequenceOfRecipientInfo 	 DATA
+	asn_DEF_Vanetza_Security_SequenceOfRectangularRegion 	 DATA
+	asn_DEF_Vanetza_Security_SequenceOfRegionAndSubregions 	 DATA
+	asn_DEF_Vanetza_Security_SequenceOfUint16 	 DATA
+	asn_DEF_Vanetza_Security_SequenceOfUint8 	 DATA
+	asn_DEF_Vanetza_Security_ServiceSpecificPermissions 	 DATA
+	asn_DEF_Vanetza_Security_SharedAtRequest 	 DATA
+	asn_DEF_Vanetza_Security_Signature 	 DATA
+	asn_DEF_Vanetza_Security_SignedData 	 DATA
+	asn_DEF_Vanetza_Security_SignedDataPayload 	 DATA
+	asn_DEF_Vanetza_Security_SignerIdentifier 	 DATA
+	asn_DEF_Vanetza_Security_SingleEtsiTs103097Certificate 	 DATA
+	asn_DEF_Vanetza_Security_SspRange 	 DATA
+	asn_DEF_Vanetza_Security_SubjectAssurance 	 DATA
+	asn_DEF_Vanetza_Security_SubjectPermissions 	 DATA
+	asn_DEF_Vanetza_Security_SymmAlgorithm 	 DATA
+	asn_DEF_Vanetza_Security_SymmRecipientInfo 	 DATA
+	asn_DEF_Vanetza_Security_SymmetricCiphertext 	 DATA
+	asn_DEF_Vanetza_Security_SymmetricEncryptionKey 	 DATA
+	asn_DEF_Vanetza_Security_ThreeDLocation 	 DATA
+	asn_DEF_Vanetza_Security_Time32 	 DATA
+	asn_DEF_Vanetza_Security_Time64 	 DATA
+	asn_DEF_Vanetza_Security_TlmCertificateTrustListMessage 	 DATA
+	asn_DEF_Vanetza_Security_TlmEntry 	 DATA
+	asn_DEF_Vanetza_Security_ToBeSignedCertificate 	 DATA
+	asn_DEF_Vanetza_Security_ToBeSignedCrl 	 DATA
+	asn_DEF_Vanetza_Security_ToBeSignedData 	 DATA
+	asn_DEF_Vanetza_Security_ToBeSignedRcaCtl 	 DATA
+	asn_DEF_Vanetza_Security_ToBeSignedTlmCtl 	 DATA
+	asn_DEF_Vanetza_Security_TwoDLocation 	 DATA
+	asn_DEF_Vanetza_Security_Uint16 	 DATA
+	asn_DEF_Vanetza_Security_Uint3 	 DATA
+	asn_DEF_Vanetza_Security_Uint32 	 DATA
+	asn_DEF_Vanetza_Security_Uint64 	 DATA
+	asn_DEF_Vanetza_Security_Uint8 	 DATA
+	asn_DEF_Vanetza_Security_UnknownLatitude 	 DATA
+	asn_DEF_Vanetza_Security_UnknownLongitude 	 DATA
+	asn_DEF_Vanetza_Security_Url 	 DATA
+	asn_DEF_Vanetza_Security_ValidityPeriod 	 DATA
+	asn_DEF_Vanetza_Security_VerificationKeyIndicator 	 DATA
+	asn_DEF_Vanetza_Security_Version 	 DATA
+	asn_MBR_Vanetza_Security_AaEntry_1 	 DATA
+	asn_MBR_Vanetza_Security_AesCcmCiphertext_1 	 DATA
+	asn_MBR_Vanetza_Security_AuthorizationValidationRequest_1 	 DATA
+	asn_MBR_Vanetza_Security_AuthorizationValidationResponse_1 	 DATA
+	asn_MBR_Vanetza_Security_BasePublicEncryptionKey_1 	 DATA
+	asn_MBR_Vanetza_Security_BitmapSspRange_1 	 DATA
+	asn_MBR_Vanetza_Security_CaCertificateRequest_1 	 DATA
+	asn_MBR_Vanetza_Security_CertificateBase_1 	 DATA
+	asn_MBR_Vanetza_Security_CertificateId_1 	 DATA
+	asn_MBR_Vanetza_Security_CertificateSubjectAttributes_1 	 DATA
+	asn_MBR_Vanetza_Security_CircularRegion_1 	 DATA
+	asn_MBR_Vanetza_Security_CountryAndRegions_1 	 DATA
+	asn_MBR_Vanetza_Security_CountryAndSubregions_1 	 DATA
+	asn_MBR_Vanetza_Security_CtlCommand_1 	 DATA
+	asn_MBR_Vanetza_Security_CtlDelete_1 	 DATA
+	asn_MBR_Vanetza_Security_CtlEntry_1 	 DATA
+	asn_MBR_Vanetza_Security_CtlFormat_1 	 DATA
+	asn_MBR_Vanetza_Security_DcEntry_1 	 DATA
+	asn_MBR_Vanetza_Security_Duration_1 	 DATA
+	asn_MBR_Vanetza_Security_EaEntry_1 	 DATA
+	asn_MBR_Vanetza_Security_EcSignature_1 	 DATA
+	asn_MBR_Vanetza_Security_EccP256CurvePoint_1 	 DATA
+	asn_MBR_Vanetza_Security_EccP384CurvePoint_1 	 DATA
+	asn_MBR_Vanetza_Security_EcdsaP256Signature_1 	 DATA
+	asn_MBR_Vanetza_Security_EcdsaP384Signature_1 	 DATA
+	asn_MBR_Vanetza_Security_EciesP256EncryptedKey_1 	 DATA
+	asn_MBR_Vanetza_Security_EncryptedDataEncryptionKey_1 	 DATA
+	asn_MBR_Vanetza_Security_EncryptedData_1 	 DATA
+	asn_MBR_Vanetza_Security_EncryptionKey_1 	 DATA
+	asn_MBR_Vanetza_Security_EtsiTs102941DataContent_1 	 DATA
+	asn_MBR_Vanetza_Security_GeographicRegion_1 	 DATA
+	asn_MBR_Vanetza_Security_GroupLinkageValue_1 	 DATA
+	asn_MBR_Vanetza_Security_HashedData_1 	 DATA
+	asn_MBR_Vanetza_Security_HeaderInfo_1 	 DATA
+	asn_MBR_Vanetza_Security_IdentifiedRegion_1 	 DATA
+	asn_MBR_Vanetza_Security_Ieee1609Dot2Content_1 	 DATA
+	asn_MBR_Vanetza_Security_Ieee1609Dot2Data_1 	 DATA
+	asn_MBR_Vanetza_Security_InnerAtRequest_1 	 DATA
+	asn_MBR_Vanetza_Security_InnerAtResponse_1 	 DATA
+	asn_MBR_Vanetza_Security_InnerEcResponse_1 	 DATA
+	asn_MBR_Vanetza_Security_IssuerIdentifier_1 	 DATA
+	asn_MBR_Vanetza_Security_LinkageData_1 	 DATA
+	asn_MBR_Vanetza_Security_MissingCrlIdentifier_1 	 DATA
+	asn_MBR_Vanetza_Security_PKRecipientInfo_1 	 DATA
+	asn_MBR_Vanetza_Security_PolygonalRegion_1 	 DATA
+	asn_MBR_Vanetza_Security_PsidGroupPermissions_1 	 DATA
+	asn_MBR_Vanetza_Security_PsidSspRange_1 	 DATA
+	asn_MBR_Vanetza_Security_PsidSsp_1 	 DATA
+	asn_MBR_Vanetza_Security_PublicEncryptionKey_1 	 DATA
+	asn_MBR_Vanetza_Security_PublicKeys_1 	 DATA
+	asn_MBR_Vanetza_Security_PublicVerificationKey_1 	 DATA
+	asn_MBR_Vanetza_Security_RecipientInfo_1 	 DATA
+	asn_MBR_Vanetza_Security_RectangularRegion_1 	 DATA
+	asn_MBR_Vanetza_Security_RegionAndSubregions_1 	 DATA
+	asn_MBR_Vanetza_Security_RootCaEntry_1 	 DATA
+	asn_MBR_Vanetza_Security_SequenceOfCertificate_1 	 DATA
+	asn_MBR_Vanetza_Security_SequenceOfHashedId3_1 	 DATA
+	asn_MBR_Vanetza_Security_SequenceOfIdentifiedRegion_1 	 DATA
+	asn_MBR_Vanetza_Security_SequenceOfOctetString_1 	 DATA
+	asn_MBR_Vanetza_Security_SequenceOfPsidGroupPermissions_1 	 DATA
+	asn_MBR_Vanetza_Security_SequenceOfPsidSspRange_1 	 DATA
+	asn_MBR_Vanetza_Security_SequenceOfPsidSsp_1 	 DATA
+	asn_MBR_Vanetza_Security_SequenceOfRecipientInfo_1 	 DATA
+	asn_MBR_Vanetza_Security_SequenceOfRectangularRegion_1 	 DATA
+	asn_MBR_Vanetza_Security_SequenceOfRegionAndSubregions_1 	 DATA
+	asn_MBR_Vanetza_Security_SequenceOfUint16_1 	 DATA
+	asn_MBR_Vanetza_Security_SequenceOfUint8_1 	 DATA
+	asn_MBR_Vanetza_Security_ServiceSpecificPermissions_1 	 DATA
+	asn_MBR_Vanetza_Security_SharedAtRequest_1 	 DATA
+	asn_MBR_Vanetza_Security_Signature_1 	 DATA
+	asn_MBR_Vanetza_Security_SignedDataPayload_1 	 DATA
+	asn_MBR_Vanetza_Security_SignedData_1 	 DATA
+	asn_MBR_Vanetza_Security_SignerIdentifier_1 	 DATA
+	asn_MBR_Vanetza_Security_SspRange_1 	 DATA
+	asn_MBR_Vanetza_Security_SubjectPermissions_1 	 DATA
+	asn_MBR_Vanetza_Security_SymmRecipientInfo_1 	 DATA
+	asn_MBR_Vanetza_Security_SymmetricCiphertext_1 	 DATA
+	asn_MBR_Vanetza_Security_SymmetricEncryptionKey_1 	 DATA
+	asn_MBR_Vanetza_Security_ThreeDLocation_1 	 DATA
+	asn_MBR_Vanetza_Security_TlmEntry_1 	 DATA
+	asn_MBR_Vanetza_Security_ToBeSignedCertificate_1 	 DATA
+	asn_MBR_Vanetza_Security_ToBeSignedCrl_1 	 DATA
+	asn_MBR_Vanetza_Security_ToBeSignedData_1 	 DATA
+	asn_MBR_Vanetza_Security_TwoDLocation_1 	 DATA
+	asn_MBR_Vanetza_Security_ValidityPeriod_1 	 DATA
+	asn_MBR_Vanetza_Security_VerificationKeyIndicator_1 	 DATA
+	asn_PER_type_Vanetza_Security_AuthorizationResponseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_AuthorizationValidationResponseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_AuthorizationValidationResponse_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_BasePublicEncryptionKey_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_BitmapSsp_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_CertificateFormat_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_CertificateId_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_CertificateSubjectAttributes_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_CertificateType_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Certificate_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_CountryOnly_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_CrlEntry_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_CrlSeries_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_CtlCommand_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_CtlDelete_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_CtlEntry_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_DcDelete_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Duration_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EcSignature_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EccP256CurvePoint_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EccP384CurvePoint_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_ElevInt_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Elevation_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EncryptedDataEncryptionKey_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EncryptionKey_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EndEntityType_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EnrolmentResponseCode_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EtsiTs102941DataContent_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EtsiTs103097Certificate_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EtsiTs103097Data_Encrypted_85P0_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EtsiTs103097Data_Encrypted_85P1_constr_2 	 DATA
+	asn_PER_type_Vanetza_Security_EtsiTs103097Data_Encrypted_85P2_constr_3 	 DATA
+	asn_PER_type_Vanetza_Security_EtsiTs103097Data_Encrypted_Unicast_55P0_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EtsiTs103097Data_SignedAndEncrypted_Unicast_64P0_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EtsiTs103097Data_SignedExternalPayload_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EtsiTs103097Data_Signed_55P0_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_EtsiTs103097Data_Signed_55P1_constr_2 	 DATA
+	asn_PER_type_Vanetza_Security_EtsiTs103097Data_Signed_55P2_constr_3 	 DATA
+	asn_PER_type_Vanetza_Security_EtsiTs103097Data_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_ExplicitCertificate_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_GeographicRegion_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_HashAlgorithm_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_HashedData_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_HashedId3_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_HashedId8_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Hostname_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_IValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_IdentifiedRegion_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Ieee1609Dot2Content_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_InnerAtResponse_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_InnerEcRequestSignedForPop_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_InnerEcResponse_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_IssuerIdentifier_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Latitude_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_LinkageValue_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Longitude_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_NinetyDegreeInt_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_OneEightyDegreeInt_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_PolygonalRegion_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_PreSharedKeyRecipientInfo_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Psid_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_PublicVerificationKey_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_RecipientInfo_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_SequenceOfOctetString_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_ServiceSpecificPermissions_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Signature_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_SignedDataPayload_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_SignerIdentifier_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_SspRange_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_SubjectAssurance_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_SubjectPermissions_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_SymmAlgorithm_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_SymmetricCiphertext_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_SymmetricEncryptionKey_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Time32_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Time64_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_ToBeSignedCertificate_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_ToBeSignedRcaCtl_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_ToBeSignedTlmCtl_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Uint16_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Uint32_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Uint64_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Uint8_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_Url_constr_1 	 DATA
+	asn_PER_type_Vanetza_Security_VerificationKeyIndicator_constr_1 	 DATA
+	asn_SPC_Vanetza_Security_AaEntry_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_AesCcmCiphertext_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_AuthorizationValidationRequest_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_AuthorizationValidationResponse_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_BasePublicEncryptionKey_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_BitmapSspRange_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_CaCertificateRequest_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_CertificateBase_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_CertificateId_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_CertificateSubjectAttributes_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_CircularRegion_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_CountryAndRegions_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_CountryAndSubregions_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_CtlCommand_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_CtlDelete_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_CtlEntry_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_CtlFormat_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_DcEntry_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_Duration_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_EaEntry_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_EcSignature_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_EccP256CurvePoint_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_EccP384CurvePoint_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_EcdsaP256Signature_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_EcdsaP384Signature_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_EciesP256EncryptedKey_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_EncryptedDataEncryptionKey_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_EncryptedData_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_EncryptionKey_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_EtsiTs102941DataContent_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_GeographicRegion_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_GroupLinkageValue_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_HashedData_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_HeaderInfo_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_IdentifiedRegion_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_Ieee1609Dot2Content_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_Ieee1609Dot2Data_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_InnerAtRequest_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_InnerAtResponse_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_InnerEcResponse_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_IssuerIdentifier_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_LinkageData_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_MissingCrlIdentifier_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_PKRecipientInfo_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_PolygonalRegion_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_PsidGroupPermissions_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_PsidSspRange_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_PsidSsp_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_PublicEncryptionKey_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_PublicKeys_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_PublicVerificationKey_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_RecipientInfo_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_RectangularRegion_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_RegionAndSubregions_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_RootCaEntry_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SequenceOfCertificate_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SequenceOfHashedId3_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SequenceOfIdentifiedRegion_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SequenceOfOctetString_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SequenceOfPsidGroupPermissions_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SequenceOfPsidSspRange_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SequenceOfPsidSsp_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SequenceOfRecipientInfo_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SequenceOfRectangularRegion_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SequenceOfRegionAndSubregions_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SequenceOfUint16_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SequenceOfUint8_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_ServiceSpecificPermissions_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SharedAtRequest_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_Signature_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SignedDataPayload_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SignedData_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SignerIdentifier_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SspRange_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SubjectPermissions_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SymmRecipientInfo_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SymmetricCiphertext_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_SymmetricEncryptionKey_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_ThreeDLocation_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_TlmEntry_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_ToBeSignedCertificate_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_ToBeSignedCrl_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_ToBeSignedData_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_TwoDLocation_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_ValidityPeriod_specs_1 	 DATA
+	asn_SPC_Vanetza_Security_VerificationKeyIndicator_specs_1 	 DATA
+	Vanetza_Security_AuthorizationRequestMessageWithPop_constraint
+	Vanetza_Security_AuthorizationRequestMessage_constraint
+	Vanetza_Security_AuthorizationResponseMessage_constraint
+	Vanetza_Security_AuthorizationValidationRequestMessage_constraint
+	Vanetza_Security_AuthorizationValidationResponseMessage_constraint
+	Vanetza_Security_BitmapSsp_constraint
+	Vanetza_Security_CaCertificateRekeyingMessage_constraint
+	Vanetza_Security_CaCertificateRequestMessage_constraint
+	Vanetza_Security_CertificateFormat_constraint
+	Vanetza_Security_CertificateRevocationListMessage_constraint
+	Vanetza_Security_Certificate_constraint
+	Vanetza_Security_Countersignature_constraint
+	Vanetza_Security_CountryOnly_constraint
+	Vanetza_Security_CrlEntry_constraint
+	Vanetza_Security_CrlSeries_constraint
+	Vanetza_Security_DeltaCtl_constraint
+	Vanetza_Security_ElevInt_constraint
+	Vanetza_Security_Elevation_constraint
+	Vanetza_Security_EndEntityType_constraint
+	Vanetza_Security_EnrolmentRequestMessage_constraint
+	Vanetza_Security_EnrolmentResponseMessage_constraint
+	Vanetza_Security_EtsiTs103097Certificate_constraint
+	Vanetza_Security_EtsiTs103097Data_Encrypted_85P0_constraint
+	Vanetza_Security_EtsiTs103097Data_Encrypted_85P1_constraint
+	Vanetza_Security_EtsiTs103097Data_Encrypted_85P2_constraint
+	Vanetza_Security_EtsiTs103097Data_Encrypted_Unicast_55P0_constraint
+	Vanetza_Security_EtsiTs103097Data_SignedAndEncrypted_Unicast_64P0_constraint
+	Vanetza_Security_EtsiTs103097Data_SignedExternalPayload_constraint
+	Vanetza_Security_EtsiTs103097Data_Signed_55P0_constraint
+	Vanetza_Security_EtsiTs103097Data_Signed_55P1_constraint
+	Vanetza_Security_EtsiTs103097Data_Signed_55P2_constraint
+	Vanetza_Security_EtsiTs103097Data_constraint
+	Vanetza_Security_ExplicitCertificate_constraint
+	Vanetza_Security_FullCtl_constraint
+	Vanetza_Security_HashedId10_constraint
+	Vanetza_Security_HashedId3_constraint
+	Vanetza_Security_HashedId8_constraint
+	Vanetza_Security_Hostname_constraint
+	Vanetza_Security_IValue_constraint
+	Vanetza_Security_ImplicitCertificate_constraint
+	Vanetza_Security_InnerEcRequestSignedForPop_constraint
+	Vanetza_Security_KnownLatitude_constraint
+	Vanetza_Security_KnownLongitude_constraint
+	Vanetza_Security_LaId_constraint
+	Vanetza_Security_Latitude_constraint
+	Vanetza_Security_LinkageSeed_constraint
+	Vanetza_Security_LinkageValue_constraint
+	Vanetza_Security_Longitude_constraint
+	Vanetza_Security_NinetyDegreeInt_constraint
+	Vanetza_Security_OneEightyDegreeInt_constraint
+	Vanetza_Security_PreSharedKeyRecipientInfo_constraint
+	Vanetza_Security_Psid_constraint
+	Vanetza_Security_RcaCertificateTrustListMessage_constraint
+	Vanetza_Security_SubjectAssurance_constraint
+	Vanetza_Security_Time32_constraint
+	Vanetza_Security_Time64_constraint
+	Vanetza_Security_TlmCertificateTrustListMessage_constraint
+	Vanetza_Security_ToBeSignedRcaCtl_constraint
+	Vanetza_Security_ToBeSignedTlmCtl_constraint
+	Vanetza_Security_Uint16_constraint
+	Vanetza_Security_Uint32_constraint
+	Vanetza_Security_Uint3_constraint
+	Vanetza_Security_Uint64_constraint
+	Vanetza_Security_Uint8_constraint
+	Vanetza_Security_UnknownLatitude_constraint
+	Vanetza_Security_UnknownLongitude_constraint
