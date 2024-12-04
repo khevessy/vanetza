@@ -29,8 +29,16 @@ typedef struct CAM {
 	asn_struct_ctx_t _asn_ctx;
 } CAM_t;
 
+#undef ASN1_ITS_EXPORT
+#ifdef asn1_its_EXPORTS
+#define ASN1_ITS_EXPORT extern __declspec(dllexport)
+#else
+#define ASN1_ITS_EXPORT extern __declspec(dllimport)
+#endif
+
+ASN1_ITS_EXPORT asn_TYPE_descriptor_t asn_DEF_CAM;
 /* Implementation */
-extern asn_TYPE_descriptor_t asn_DEF_CAM;
+//extern asn_TYPE_descriptor_t asn_DEF_CAM;
 
 #ifdef __cplusplus
 }

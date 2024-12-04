@@ -29,8 +29,16 @@ typedef struct Vanetza_ITS2_CAM {
 	asn_struct_ctx_t _asn_ctx;
 } Vanetza_ITS2_CAM_t;
 
+#undef ASN1_ITS_R2_EXPORT
+#ifdef asn1_its_r2_EXPORTS
+#define ASN1_ITS_R2_EXPORT extern __declspec(dllexport)
+#else
+#define ASN1_ITS_R2_EXPORT extern __declspec(dllimport)
+#endif
+
+ASN1_ITS_R2_EXPORT asn_TYPE_descriptor_t asn_DEF_Vanetza_ITS2_CAM;
 /* Implementation */
-extern asn_TYPE_descriptor_t asn_DEF_Vanetza_ITS2_CAM;
+//extern asn_TYPE_descriptor_t asn_DEF_Vanetza_ITS2_CAM;
 
 #ifdef __cplusplus
 }
