@@ -1,5 +1,5 @@
 ## Introduction
-This is a [Vanetza](https://github.com/riebl/vanetza) library ready to build for Windows. There are only necessary files to generate Visual Studio project and compile the library to dynamic libraried. Output folders:
+This is a [Vanetza](https://github.com/khevessy/vanetza/tree/windows_build) library ready to build for Windows. There are only necessary files to generate Visual Studio project and compile the library to dynamic libraried. Output folders:
 
 * In `shared/bin/Release`, there are `.dll` dynamic libraries
 
