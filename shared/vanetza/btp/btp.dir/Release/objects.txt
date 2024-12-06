@@ -1,4 +1,0 @@
-C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/btp/btp.dir/Release/data_indication.obj
-C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/btp/btp.dir/Release/data_request.obj
-C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/btp/btp.dir/Release/header.obj
-C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/btp/btp.dir/Release/port_dispatcher.obj

@@ -1,3 +1,0 @@
-C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/access/access.dir/Debug/access_category.obj
-C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/access/access.dir/Debug/data_rates.obj
-C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/access/access.dir/Debug/g5_link_layer.obj

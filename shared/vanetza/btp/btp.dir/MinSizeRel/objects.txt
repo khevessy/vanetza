@@ -1,4 +1,0 @@
-C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/btp/btp.dir/MinSizeRel/data_indication.obj
-C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/btp/btp.dir/MinSizeRel/data_request.obj
-C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/btp/btp.dir/MinSizeRel/header.obj
-C:/Users/Karel Hevessy/src/vanetza-build/shared/vanetza/btp/btp.dir/MinSizeRel/port_dispatcher.obj
