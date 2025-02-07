@@ -43,7 +43,7 @@ Certificate load_certificate_from_file(const std::string& certificate_path);
  * \param certificate_path file to save the certificate to
  * \param certificate certificate to save
  */
-void save_certificate_to_file(const std::string& certificate_path, Certificate& certificate);
+void save_certificate_to_file(const std::string& certificate_path, const Certificate& certificate);
 
 } // namespace v3
 } // namespace security
