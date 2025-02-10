@@ -1,0 +1,35 @@
+name: check 32-bit compatibility
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        platform:
+          - name: linux/386
+            tag: x86
+          - name: linux/arm/v7
+            tag: armv7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-qemu-action@v3
+      - uses: docker/setup-buildx-action@v3
+      - name: build
+        uses: docker/build-push-action@v6
+        with:
+          platforms: ${{matrix.platform.name}}
+          build-args: UBUNTU_VERSION=bionic
+          tags: vanetza/docker:${{matrix.platform.tag}}
+          context: ${{github.workspace}}/tools/docker
+          load: true
+      - name: execute tests
+        run: >
+          docker run --rm
+          --platform ${{matrix.platform.name}}
+          -v${{github.workspace}}:/home/build-user/workspace:ro
+          vanetza/docker:${{matrix.platform.tag}}
