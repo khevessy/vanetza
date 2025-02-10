@@ -1,5 +1,6 @@
 import os
 import glob
+import shutil
 from xml.etree import ElementTree as ET
 
 # Define the project-specific settings
@@ -14,6 +15,9 @@ settings = {
     },
     "asn1_security": {
         "files_to_add": [("./securityAsnIncludes.c", "ClCompile")]
+    },
+    "asn1_security_r2": {
+        "files_to_add": [("./securityAsnR2Includes.c", "ClCompile")]
     },
     "asn1_support": {
         "preprocessor_definitions": ["_USE_MATH_DEFINES"]
@@ -30,6 +34,17 @@ settings = {
 # Locate all .vcxproj files in the build directory
 def find_vcxproj_files(build_dir):
     return glob.glob(os.path.join(build_dir, "**", "*.vcxproj"), recursive=True)
+
+# Ensure copy files exist
+def ensure_copy_files():
+    copy_files = [
+        ("../vanetza/asn1/its/r2/ActionId.c", "../vanetza/asn1/its/r2/ActionId_copy.c"),
+        ("../vanetza/asn1/its/r2/StationId.c", "../vanetza/asn1/its/r2/StationId_copy.c")
+    ]
+    for src, dest in copy_files:
+        if not os.path.exists(dest) and os.path.exists(src):
+            shutil.copy(src, dest)
+            print(f"Created {dest} from {src}")
 
 # Modify a .vcxproj file based on the settings
 def modify_vcxproj(vcxproj_file, project_name, settings):
@@ -110,6 +125,9 @@ def add_files_to_vcxproj(root, files_to_add, ns, vcxproj_dir):
 # Main script
 def main():
     build_dir = "C:/Users/Karel Hevessy/src/vanetza-build/shared"  # Replace with your actual build directory
+
+    # Ensure copy files exist
+    ensure_copy_files()
 
     # Find all project files
     vcxproj_files = find_vcxproj_files(build_dir)

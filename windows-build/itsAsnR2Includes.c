@@ -1,5 +1,4 @@
 /* asn1_its_r2: itsAsnR2Includes.c */
-
 #include "OCTET_STRING.c"
 #include "BIT_STRING.c"
 #include "UTF8String.c"
