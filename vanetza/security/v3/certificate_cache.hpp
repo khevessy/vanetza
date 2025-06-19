@@ -18,8 +18,6 @@ namespace v3
 class CertificateCache
 {
 public:
-    CertificateCache();
-
     /**
      * Lookup certificate based on given digest
      * \param digest certificate digest

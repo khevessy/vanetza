@@ -8,10 +8,6 @@ namespace security
 namespace v3
 {
 
-CertificateCache::CertificateCache()
-{
-}
-
 const Certificate* CertificateCache::lookup(const HashedId8& digest) const
 {
     auto found = m_storage.find(digest);

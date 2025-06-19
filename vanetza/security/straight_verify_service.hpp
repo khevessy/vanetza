@@ -29,7 +29,6 @@ namespace v3
 {
 
 // forward declarations
-class CertificateCache;
 class CertificateProvider;
 class CertificateValidator;
 class SignHeaderPolicy;
@@ -50,7 +49,6 @@ public:
     void use_sign_header_policy(v2::SignHeaderPolicy*);
 
     void use_certificate_provider(v3::CertificateProvider*);
-    void use_certificate_cache(v3::CertificateCache*);
     void use_certificate_validator(v3::CertificateValidator*);
     void use_sign_header_policy(v3::SignHeaderPolicy*);
 
@@ -76,7 +74,6 @@ private:
     } m_context_v2;
 
     struct {
-        v3::CertificateCache* m_cert_cache = nullptr;
         v3::CertificateProvider* m_cert_provider = nullptr;
         v3::CertificateValidator* m_cert_validator = nullptr;
         v3::SignHeaderPolicy* m_sign_policy = nullptr;

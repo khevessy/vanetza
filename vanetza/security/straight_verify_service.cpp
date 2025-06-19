@@ -386,7 +386,7 @@ VerifyConfirm StraightVerifyService::verify(const v3::SecuredMessage& msg)
      */
     VerifyConfirm confirm;
     confirm.report = VerificationReport::Incompatible_Protocol; /*< fallback error code */
-
+    
     if (!msg.is_signed()) {
         confirm.report = VerificationReport::Unsigned_Message;
         return confirm;
@@ -399,6 +399,7 @@ VerifyConfirm StraightVerifyService::verify(const v3::SecuredMessage& msg)
 
     auto gen_time = msg.generation_time();
     if (!gen_time) {
+        // TS 103 097 v1.3.1 demands generation time to be always present
         confirm.report = VerificationReport::Invalid_Timestamp;
         return confirm;
     }
