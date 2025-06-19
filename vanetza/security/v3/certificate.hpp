@@ -41,8 +41,16 @@ public:
      */
     boost::optional<HashedId8> calculate_digest() const;
 
+    /**
+     * Get start and end validity
+     * \return certificate start and end validity
+     */
     StartAndEndValidity get_start_and_end_validity() const;
 
+    /**
+     * Get verification key type
+     * \return verification key type if possible; otherwise unspecified
+     */
     KeyType get_verification_key_type() const;
 
     /**
